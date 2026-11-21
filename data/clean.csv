@@ -1,0 +1,1001 @@
+record_id,appointment_no,patient_id,patient_age,gender,insurance_type,distance_km,prior_no_shows_12m,clinic_code,clinic_area,clinic_state,doctor_id,doctor_type,booking_date,appointment_date,lead_time_days,day_of_week,time_slot,session,booking_channel,consultation_type,reminders_sent,consultation_fee_rm,no_show
+1,APT-000001,P00487,21,F,Self-pay,4.5,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-01-27,2026-01-27,0,Tuesday,10:30,Morning,Website,General,0,39.5,No
+2,APT-000002,P00565,22,F,Panel,6.9,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-01-19,2026-01-27,8,Tuesday,19:00,Evening,App,General,2,46.5,No
+3,APT-000003,P00257,40,F,Self-pay,10.4,1,KS10,Rawang,Selangor,D018,Permanent,2026-05-01,2026-05-11,10,Monday,14:15,Afternoon,WhatsApp,Follow-up,1,39.5,No
+4,APT-000004,P00223,36,F,Panel,8.6,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-04-29,2026-04-29,0,Wednesday,18:30,Evening,App,General,0,37.5,No
+5,APT-000005,P00657,62,M,Self-pay,5.9,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-03-01,2026-03-10,9,Tuesday,14:30,Afternoon,Phone,General,1,53.5,No
+6,APT-000006,P00102,23,M,Insurance,2.3,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-01-27,2026-02-07,11,Saturday,11:00,Morning,App,General,1,45.04,Yes
+7,APT-000007,P00229,33,M,Insurance,2.4,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-03-17,2026-03-30,13,Monday,21:15,Evening,Phone,Follow-up,2,28.5,Yes
+8,APT-000008,P00409,31,F,Panel,10.2,0,KS10,Rawang,Selangor,D012,Permanent,2026-03-27,2026-03-27,0,Friday,17:45,Evening,Website,Follow-up,0,33.0,No
+9,APT-000009,P00015,23,M,Panel,6.6,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-01-01,2026-01-16,15,Friday,12:30,Afternoon,App,General,1,44.0,No
+10,APT-000010,P00379,28,F,Insurance,6.6,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-05-07,2026-05-09,2,Saturday,15:00,Afternoon,App,General,1,44.89,No
+11,APT-000011,P00124,66,F,Self-pay,1.8,2,KS03,Subang Jaya,Selangor,D020,Permanent,2026-02-07,2026-02-18,11,Wednesday,18:30,Evening,Phone,Follow-up,2,33.5,No
+12,APT-000012,P00487,21,F,Self-pay,4.5,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-02-08,2026-02-09,1,Monday,15:15,Afternoon,App,General,1,39.0,No
+13,APT-000013,P00289,56,F,Insurance,2.0,0,KS03,Subang Jaya,Selangor,D022,Permanent,2025-12-29,2026-01-21,23,Wednesday,10:45,Morning,WhatsApp,General,1,45.5,No
+14,APT-000014,P00109,22,M,Insurance,7.4,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-01-30,2026-02-13,14,Friday,13:45,Afternoon,App,General,2,40.5,No
+15,APT-000015,P00618,27,M,Panel,2.9,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-03-15,2026-03-17,2,Tuesday,09:00,Morning,App,Follow-up,0,36.5,No
+16,APT-000016,P00326,50,F,Self-pay,3.4,0,KS10,Rawang,Selangor,D018,Permanent,2026-04-07,2026-04-08,1,Wednesday,20:00,Evening,Phone,General,0,46.0,No
+17,APT-000017,P00667,54,F,Self-pay,9.4,1,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-01-08,2026-01-20,12,Tuesday,16:00,Afternoon,Phone,Health screening,1,147.5,No
+18,APT-000018,P00438,42,F,Insurance,3.6,0,KS04,Klang,Selangor,D004,Permanent,2026-02-12,2026-02-16,4,Monday,14:45,Afternoon,Phone,General,0,45.0,No
+19,APT-000019,P00140,48,F,Self-pay,5.4,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-02-20,2026-02-21,1,Saturday,11:30,Morning,App,General,1,45.5,No
+20,APT-000020,P00053,34,F,Self-pay,5.1,0,KS04,Klang,Selangor,D021,Permanent,2025-12-07,2026-01-07,31,Wednesday,15:00,Afternoon,App,Follow-up,0,29.5,No
+21,APT-000021,P00335,39,M,Panel,3.0,1,KS10,Rawang,Selangor,D012,Permanent,2026-01-30,2026-02-04,5,Wednesday,20:30,Evening,App,General,2,43.5,No
+22,APT-000022,P00323,60,F,Self-pay,6.6,0,KS10,Rawang,Selangor,D012,Permanent,2026-02-19,2026-02-23,4,Monday,21:00,Evening,WhatsApp,General,1,43.5,No
+23,APT-000023,P00055,80,F,Self-pay,3.2,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-04-20,2026-05-02,12,Saturday,09:45,Morning,App,General,1,50.5,No
+24,APT-000024,P00597,23,M,Self-pay,2.0,1,KS03,Subang Jaya,Selangor,D020,Permanent,2026-01-18,2026-01-24,6,Saturday,09:30,Morning,WhatsApp,Follow-up,0,34.97,Yes
+25,APT-000025,P00234,27,M,Panel,3.3,4,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-06-12,2026-06-13,1,Saturday,21:15,Evening,Phone,General,1,35.0,Yes
+26,APT-000026,P00080,29,M,Panel,4.5,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-02-22,2026-03-09,15,Monday,17:30,Evening,App,General,2,45.0,No
+27,APT-000027,P00046,30,F,Self-pay,2.4,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-06-18,2026-06-19,1,Friday,20:15,Evening,App,General,1,45.5,No
+28,APT-000028,P00354,49,M,Insurance,4.1,3,KS03,Subang Jaya,Selangor,D017,Permanent,2026-06-07,2026-06-08,1,Monday,18:15,Evening,App,Health screening,0,147.5,Yes
+29,APT-000029,P00658,68,M,Insurance,4.7,0,KS04,Klang,Selangor,D021,Permanent,2026-05-23,2026-05-26,3,Tuesday,16:45,Afternoon,Phone,General,2,49.0,No
+30,APT-000030,P00018,36,F,Self-pay,12.0,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-01-31,2026-02-09,9,Monday,18:45,Evening,App,General,0,44.5,No
+31,APT-000031,P00636,56,F,Panel,5.5,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-01-11,2026-02-19,39,Thursday,17:15,Evening,WhatsApp,Follow-up,2,44.0,Yes
+32,APT-000032,P00545,12,M,Insurance,5.8,1,KS03,Subang Jaya,Selangor,D023,Permanent,2026-04-29,2026-04-30,1,Thursday,11:00,Morning,App,Follow-up,1,44.0,No
+33,APT-000033,P00665,51,M,Panel,2.7,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-04-04,2026-04-10,6,Friday,10:30,Morning,Phone,General,2,44.91,No
+34,APT-000034,P00156,75,M,Panel,5.8,1,KS05,Kajang,Selangor,D005,Locum,2026-01-06,2026-01-06,0,Tuesday,14:30,Afternoon,WhatsApp,General,0,57.0,No
+35,APT-000035,P00425,57,M,Panel,8.5,1,KS02,Shah Alam,Selangor,D002,Permanent,2026-04-15,2026-05-15,30,Friday,19:15,Evening,Phone,General,1,41.0,No
+36,APT-000036,P00068,63,M,Insurance,3.5,0,KS10,Rawang,Selangor,D018,Permanent,2026-04-18,2026-04-22,4,Wednesday,11:45,Morning,Phone,General,1,45.0,No
+37,APT-000037,P00024,13,M,Panel,7.5,2,KS10,Rawang,Selangor,D010,Permanent,2026-03-27,2026-04-13,17,Monday,21:00,Evening,App,Follow-up,2,28.0,No
+38,APT-000038,P00433,18,F,Self-pay,8.7,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2025-12-24,2026-01-08,15,Thursday,11:45,Morning,WhatsApp,Follow-up,1,28.0,No
+39,APT-000039,P00165,40,F,Panel,8.5,0,KS05,Kajang,Selangor,D011,Locum,2026-04-29,2026-05-02,3,Saturday,18:00,Evening,WhatsApp,General,0,66.5,No
+40,APT-000040,P00326,17,F,Self-pay,3.4,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-01-18,2026-01-21,3,Wednesday,17:00,Evening,Phone,General,1,38.0,No
+41,APT-000041,P00074,22,F,Self-pay,6.3,1,KS04,Klang,Selangor,D021,Permanent,2026-04-03,2026-05-11,38,Monday,11:00,Morning,WhatsApp,General,0,51.0,No
+42,APT-000042,P00670,46,M,Panel,5.7,0,KS10,Rawang,Selangor,D018,Permanent,2026-01-24,2026-01-26,2,Monday,13:15,Afternoon,App,Follow-up,0,33.5,No
+43,APT-000043,P00437,40,M,Panel,13.6,1,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-05-02,2026-05-14,12,Thursday,13:45,Afternoon,Phone,Follow-up,0,34.5,Yes
+44,APT-000044,P00631,21,M,Self-pay,3.2,3,KS04,Klang,Selangor,D021,Permanent,2026-05-26,2026-05-28,2,Thursday,20:45,Evening,App,General,0,44.5,Yes
+45,APT-000045,P00490,38,M,Panel,6.7,0,KS03,Subang Jaya,Selangor,D015,Locum,2025-12-30,2026-01-13,14,Tuesday,19:00,Evening,Website,General,1,48.5,No
+46,APT-000046,P00071,24,M,Panel,1.8,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-03-19,2026-03-27,8,Friday,17:45,Evening,WhatsApp,General,2,44.0,No
+47,APT-000047,P00046,30,F,Self-pay,2.4,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-04-06,2026-04-08,2,Wednesday,12:30,Afternoon,App,General,1,38.5,Yes
+48,APT-000048,P00633,45,M,Self-pay,6.4,1,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-05-18,2026-05-23,5,Saturday,17:00,Evening,WhatsApp,Health screening,2,146.0,No
+49,APT-000049,P00590,45,F,Self-pay,1.8,1,KS10,Rawang,Selangor,D018,Permanent,2026-04-20,2026-04-22,2,Wednesday,10:00,Morning,WhatsApp,General,1,42.5,No
+50,APT-000050,P00241,60,F,Self-pay,7.2,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-02-01,2026-02-03,2,Tuesday,12:15,Afternoon,Phone,General,0,47.5,No
+51,APT-000051,P00460,36,F,Panel,5.1,2,KS03,Subang Jaya,Selangor,D020,Permanent,2026-01-24,2026-02-03,10,Tuesday,13:45,Afternoon,App,General,2,46.5,No
+52,APT-000052,P00256,57,F,Panel,3.0,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-05-29,2026-06-05,7,Friday,21:45,Evening,Phone,Health screening,0,148.5,No
+53,APT-000053,P00632,21,F,Self-pay,7.5,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-02-26,2026-03-04,6,Wednesday,11:30,Morning,App,General,1,47.0,No
+54,APT-000054,P00274,48,F,Panel,5.3,1,KS04,Klang,Selangor,D004,Permanent,2026-02-25,2026-02-27,2,Friday,15:15,Afternoon,App,Health screening,1,146.0,No
+55,APT-000055,P00323,60,F,Self-pay,6.6,0,KS10,Rawang,Selangor,D010,Permanent,2026-05-16,2026-05-21,5,Thursday,15:15,Afternoon,Phone,General,0,47.0,No
+56,APT-000056,P00226,28,M,Insurance,4.0,1,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-02-16,2026-02-18,2,Wednesday,09:00,Morning,WhatsApp,General,1,44.0,No
+57,APT-000057,P00294,54,M,Insurance,3.9,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-04-18,2026-04-30,12,Thursday,19:30,Evening,Phone,Follow-up,0,33.0,No
+58,APT-000058,P00076,7,M,Self-pay,3.6,1,KS03,Subang Jaya,Selangor,D013,Permanent,2026-02-01,2026-02-03,2,Tuesday,21:30,Evening,App,General,1,51.5,No
+59,APT-000059,P00298,19,F,Self-pay,6.5,2,KS04,Klang,Selangor,D021,Permanent,2026-02-07,2026-02-07,0,Saturday,18:00,Evening,App,General,0,41.0,Yes
+60,APT-000060,P00401,70,F,Self-pay,3.3,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-04-14,2026-04-20,6,Monday,17:30,Evening,Phone,Follow-up,2,33.5,No
+61,APT-000061,P00445,50,M,Insurance,18.1,0,KS10,Rawang,Selangor,D018,Permanent,2026-02-04,2026-02-11,7,Wednesday,17:30,Evening,Phone,General,1,37.0,No
+62,APT-000062,P00155,46,M,Self-pay,23.5,2,KS03,Subang Jaya,Selangor,D020,Permanent,2026-04-24,2026-04-27,3,Monday,13:15,Afternoon,Phone,Health screening,1,153.5,Yes
+63,APT-000063,P00554,58,F,Panel,26.5,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-01-12,2026-01-16,4,Friday,11:30,Morning,WhatsApp,General,1,48.0,No
+64,APT-000064,P00635,40,M,Panel,8.9,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-05-12,2026-05-21,9,Thursday,19:30,Evening,WhatsApp,General,2,41.0,Yes
+65,APT-000065,P00450,90,F,Self-pay,6.0,0,KS05,Kajang,Selangor,D011,Locum,2026-03-15,2026-03-16,1,Monday,14:45,Afternoon,Phone,Follow-up,1,52.5,No
+66,APT-000066,P00217,43,M,Panel,4.3,1,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-06-23,2026-06-26,3,Friday,20:15,Evening,Phone,General,0,44.0,No
+67,APT-000067,P00104,44,F,Self-pay,4.1,1,KS04,Klang,Selangor,D004,Permanent,2026-01-21,2026-01-23,2,Friday,10:45,Morning,Phone,General,0,40.5,No
+68,APT-000068,P00099,27,F,Panel,10.7,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-03-10,2026-03-17,7,Tuesday,14:15,Afternoon,App,Follow-up,1,35.24,No
+69,APT-000069,P00311,35,F,Panel,4.4,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-04-21,2026-05-22,31,Friday,09:45,Morning,App,General,1,53.5,No
+70,APT-000070,P00529,30,F,Self-pay,6.3,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-06-06,2026-06-23,17,Tuesday,15:45,Afternoon,App,General,1,47.0,No
+71,APT-000071,P00285,24,F,Insurance,6.1,1,KS10,Rawang,Selangor,D012,Permanent,2026-03-03,2026-03-14,11,Saturday,16:30,Afternoon,App,General,2,45.0,No
+72,APT-000072,P00666,48,F,Panel,11.7,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-03-10,2026-03-25,15,Wednesday,16:15,Afternoon,App,Health screening,2,166.0,No
+73,APT-000073,P00336,57,M,Self-pay,11.3,0,KS10,Rawang,Selangor,D018,Permanent,2026-01-22,2026-02-20,29,Friday,18:30,Evening,Phone,Follow-up,0,36.5,No
+74,APT-000074,P00653,49,F,Self-pay,12.6,2,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-04-10,2026-04-14,4,Tuesday,14:00,Afternoon,WhatsApp,Follow-up,0,31.5,No
+75,APT-000075,P00350,21,F,Insurance,7.5,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-04,2026-04-24,20,Friday,16:30,Afternoon,WhatsApp,General,2,40.5,No
+76,APT-000076,P00690,64,F,Self-pay,14.6,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-03-25,2026-03-25,0,Wednesday,18:00,Evening,WhatsApp,General,0,46.5,No
+77,APT-000077,P00624,40,F,Self-pay,4.5,2,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-03-23,2026-04-02,10,Thursday,14:15,Afternoon,WhatsApp,General,2,49.0,No
+78,APT-000078,P00025,29,F,Self-pay,2.6,1,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-04-29,2026-04-29,0,Wednesday,19:45,Evening,WhatsApp,General,0,40.0,No
+79,APT-000079,P00134,51,M,Panel,23.6,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-06-10,2026-06-16,6,Tuesday,11:00,Morning,Website,General,0,49.5,No
+80,APT-000080,P00413,37,F,Panel,2.7,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-03-26,2026-04-24,29,Friday,12:45,Afternoon,WhatsApp,General,2,41.0,No
+81,APT-000081,P00149,33,F,Self-pay,8.1,0,KS05,Kajang,Selangor,D005,Locum,2026-06-04,2026-06-04,0,Thursday,21:15,Evening,WhatsApp,Follow-up,0,43.5,No
+82,APT-000082,P00249,55,F,Panel,3.6,1,KS03,Subang Jaya,Selangor,D013,Permanent,2026-06-26,2026-06-26,0,Friday,13:15,Afternoon,Phone,General,0,43.0,No
+83,APT-000083,P00275,49,M,Insurance,12.2,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-03-29,2026-04-20,22,Monday,09:00,Morning,Website,General,2,51.0,Yes
+84,APT-000084,P00272,54,M,Panel,5.5,0,KS10,Rawang,Selangor,D010,Permanent,2026-04-06,2026-04-06,0,Monday,18:15,Evening,Website,General,0,51.0,No
+85,APT-000085,P00124,66,F,Self-pay,1.8,2,KS10,Rawang,Selangor,D018,Permanent,2026-05-21,2026-05-21,0,Thursday,17:30,Evening,WhatsApp,Follow-up,0,30.5,Yes
+86,APT-000086,P00677,90,M,Self-pay,1.8,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-04-08,2026-04-21,13,Tuesday,14:30,Afternoon,Phone,General,1,44.0,No
+87,APT-000087,P00526,32,F,Panel,4.9,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-05-03,2026-05-16,13,Saturday,19:00,Evening,App,General,2,41.0,No
+88,APT-000088,P00259,53,M,Panel,5.4,1,KS10,Rawang,Selangor,D012,Permanent,2026-05-09,2026-05-13,4,Wednesday,16:00,Afternoon,WhatsApp,Follow-up,2,27.0,No
+89,APT-000089,P00445,67,M,Insurance,18.1,0,KS05,Kajang,Selangor,D005,Locum,2026-05-24,2026-05-28,4,Thursday,17:00,Evening,WhatsApp,General,1,54.84,No
+90,APT-000090,P00506,45,M,Self-pay,11.6,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-06-09,2026-06-10,1,Wednesday,18:15,Evening,App,General,1,44.93,No
+91,APT-000091,P00603,25,F,Insurance,5.3,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-05-30,2026-06-04,5,Thursday,15:45,Afternoon,App,Follow-up,0,36.5,Yes
+92,APT-000092,P00305,43,M,Self-pay,3.3,1,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-02-03,2026-02-12,9,Thursday,16:15,Afternoon,Phone,General,2,40.0,No
+93,APT-000093,P00354,49,M,Insurance,4.1,3,KS03,Subang Jaya,Selangor,D020,Permanent,2026-06-11,2026-06-11,0,Thursday,11:00,Morning,App,Health screening,0,143.5,No
+94,APT-000094,P00318,25,F,Panel,4.9,2,KS04,Klang,Selangor,D021,Permanent,2026-03-12,2026-03-31,19,Tuesday,21:15,Evening,App,General,2,49.0,No
+95,APT-000095,P00654,47,M,Panel,12.7,0,KS10,Rawang,Selangor,D018,Permanent,2026-02-27,2026-03-09,10,Monday,14:45,Afternoon,App,General,2,39.0,Yes
+96,APT-000096,P00200,45,M,Panel,2.8,0,KS10,Rawang,Selangor,D010,Permanent,2026-02-15,2026-03-10,23,Tuesday,11:45,Morning,WhatsApp,Health screening,1,148.5,No
+97,APT-000097,P00067,17,M,Self-pay,9.0,1,KS03,Subang Jaya,Selangor,D023,Permanent,2026-02-27,2026-02-28,1,Saturday,09:15,Morning,App,General,1,48.0,No
+98,APT-000098,P00602,32,M,Panel,5.3,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-18,2026-03-18,28,Wednesday,14:15,Afternoon,App,General,1,50.0,No
+99,APT-000099,P00276,69,F,Self-pay,2.2,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-01-10,2026-02-20,41,Friday,20:30,Evening,Website,Health screening,2,147.5,No
+100,APT-000100,P00217,30,M,Panel,4.3,1,KS03,Subang Jaya,Selangor,D015,Locum,2026-05-01,2026-05-15,14,Friday,09:00,Morning,Website,Health screening,2,163.5,No
+101,APT-000101,P00628,23,F,Self-pay,2.4,1,KS10,Rawang,Selangor,D012,Permanent,2026-01-24,2026-01-28,4,Wednesday,13:30,Afternoon,Website,General,2,53.0,No
+102,APT-000102,P00663,42,M,Panel,5.1,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-03-24,2026-05-07,44,Thursday,10:45,Morning,WhatsApp,Follow-up,2,35.0,No
+103,APT-000103,P00588,52,F,Panel,8.6,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-03-25,2026-03-28,3,Saturday,19:45,Evening,Phone,Follow-up,0,41.5,Yes
+104,APT-000104,P00556,23,M,Self-pay,6.2,1,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-03-17,2026-03-27,10,Friday,21:00,Evening,Website,Follow-up,2,33.5,No
+105,APT-000105,P00097,35,F,Panel,8.4,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-08,2026-04-13,5,Monday,13:15,Afternoon,WhatsApp,Follow-up,2,39.5,No
+106,APT-000106,P00150,22,M,Self-pay,8.1,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-06-13,2026-06-23,10,Tuesday,12:45,Afternoon,App,Health screening,2,153.0,Yes
+107,APT-000107,P00544,59,M,Self-pay,7.2,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-01-27,2026-01-31,4,Saturday,17:15,Evening,Website,Follow-up,1,35.44,No
+108,APT-000108,P00454,41,M,Panel,11.8,2,KS04,Klang,Selangor,D021,Permanent,2026-03-03,2026-03-05,2,Thursday,13:45,Afternoon,WhatsApp,Follow-up,1,39.0,No
+109,APT-000109,P00484,50,M,Insurance,7.0,2,KS03,Subang Jaya,Selangor,D020,Permanent,2026-04-07,2026-04-07,0,Tuesday,13:45,Afternoon,App,General,0,42.0,No
+110,APT-000110,P00298,19,F,Self-pay,6.5,2,KS03,Subang Jaya,Selangor,D013,Permanent,2026-01-27,2026-02-06,10,Friday,18:15,Evening,App,Follow-up,1,28.5,Yes
+111,APT-000111,P00077,53,F,Insurance,5.8,0,KS10,Rawang,Selangor,D012,Permanent,2026-02-14,2026-02-26,12,Thursday,19:15,Evening,WhatsApp,Follow-up,2,31.5,No
+112,APT-000112,P00554,58,F,Panel,26.5,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-04-10,2026-04-11,1,Saturday,15:30,Afternoon,App,Follow-up,1,41.0,No
+113,APT-000113,P00024,13,M,Panel,7.5,2,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-03-21,2026-04-01,11,Wednesday,12:00,Afternoon,App,General,2,47.0,No
+114,APT-000114,P00228,70,M,Self-pay,3.8,1,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-04-28,2026-06-12,45,Friday,21:00,Evening,Phone,Health screening,0,152.5,No
+115,APT-000115,P00044,45,F,Panel,2.5,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-05-02,2026-06-05,34,Friday,11:30,Morning,Phone,General,1,38.0,No
+116,APT-000116,P00369,41,F,Insurance,3.1,1,KS10,Rawang,Selangor,D018,Permanent,2026-05-17,2026-05-28,11,Thursday,13:45,Afternoon,Website,Follow-up,2,35.0,No
+117,APT-000117,P00136,46,F,Panel,2.5,1,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-01-18,2026-01-28,10,Wednesday,16:15,Afternoon,Phone,General,0,44.5,No
+118,APT-000118,P00550,39,M,Panel,6.2,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-03-28,2026-03-28,0,Saturday,19:30,Evening,App,Follow-up,0,34.5,No
+119,APT-000119,P00315,53,F,Self-pay,8.8,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-03-23,2026-04-03,11,Friday,14:30,Afternoon,Phone,Follow-up,0,32.0,No
+120,APT-000120,P00135,57,M,Panel,11.4,0,KS04,Klang,Selangor,D004,Permanent,2026-06-10,2026-06-25,15,Thursday,20:15,Evening,App,General,2,51.0,No
+121,APT-000121,P00268,55,M,Self-pay,3.7,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-06-15,2026-06-17,2,Wednesday,18:45,Evening,WhatsApp,Follow-up,1,29.0,No
+122,APT-000122,P00126,28,F,Self-pay,2.8,3,KS02,Shah Alam,Selangor,D002,Permanent,2026-02-10,2026-02-10,0,Tuesday,18:30,Evening,App,General,0,41.0,No
+123,APT-000123,P00213,70,F,Self-pay,12.1,1,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-01-20,2026-01-20,0,Tuesday,17:45,Evening,App,General,0,49.5,No
+124,APT-000124,P00147,41,F,Self-pay,3.8,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-03-12,2026-04-02,21,Thursday,18:15,Evening,WhatsApp,Health screening,1,150.0,No
+125,APT-000125,P00322,6,F,Self-pay,1.5,3,KS03,Subang Jaya,Selangor,D020,Permanent,2026-02-08,2026-02-14,6,Saturday,12:45,Afternoon,App,Follow-up,2,33.0,No
+126,APT-000126,P00211,44,F,Self-pay,8.8,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-05-30,2026-06-04,5,Thursday,09:15,Morning,Phone,Health screening,0,146.5,Yes
+127,APT-000127,P00205,86,M,Insurance,4.1,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-01-03,2026-01-07,4,Wednesday,10:15,Morning,Phone,General,2,60.5,No
+128,APT-000128,P00560,41,M,Panel,7.2,0,KS04,Klang,Selangor,D021,Permanent,2026-02-01,2026-02-05,4,Thursday,16:00,Afternoon,WhatsApp,Follow-up,1,35.5,No
+129,APT-000129,P00512,25,F,Panel,6.5,1,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-03-20,2026-04-03,14,Friday,11:15,Morning,WhatsApp,General,2,45.0,No
+130,APT-000130,P00628,23,F,Self-pay,2.4,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-11,2026-02-11,0,Wednesday,17:00,Evening,Phone,General,0,45.5,No
+131,APT-000131,P00509,65,F,Insurance,4.2,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-05-12,2026-05-18,6,Monday,16:45,Afternoon,Website,Follow-up,0,42.0,Yes
+132,APT-000132,P00030,42,M,Panel,4.5,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-04-20,2026-05-15,25,Friday,15:45,Afternoon,WhatsApp,Follow-up,1,37.5,No
+133,APT-000133,P00291,41,M,Panel,10.9,1,KS10,Rawang,Selangor,D018,Permanent,2026-02-20,2026-03-20,28,Friday,09:15,Morning,App,Health screening,2,153.0,No
+134,APT-000134,P00471,26,M,Self-pay,3.7,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-01-22,2026-01-24,2,Saturday,11:45,Morning,App,Follow-up,1,35.17,No
+135,APT-000135,P00650,23,M,Panel,7.6,3,KS03,Subang Jaya,Selangor,D023,Permanent,2026-06-06,2026-06-12,6,Friday,18:30,Evening,WhatsApp,Follow-up,1,34.0,Yes
+136,APT-000136,P00340,65,M,Self-pay,1.6,0,KS04,Klang,Selangor,D021,Permanent,2026-03-16,2026-03-25,9,Wednesday,14:30,Afternoon,Phone,General,0,48.0,Yes
+137,APT-000137,P00056,43,M,Panel,18.8,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-02-15,2026-03-07,20,Saturday,18:15,Evening,App,Health screening,2,160.5,No
+138,APT-000138,P00193,48,M,Self-pay,5.9,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-05-23,2026-05-23,0,Saturday,16:15,Afternoon,WhatsApp,General,0,34.5,No
+139,APT-000139,P00383,43,F,Insurance,5.1,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-03-03,2026-03-18,15,Wednesday,20:00,Evening,App,Follow-up,2,34.79,No
+140,APT-000140,P00443,50,M,Panel,4.4,1,KS04,Klang,Selangor,D004,Permanent,2026-05-18,2026-06-11,24,Thursday,10:30,Morning,WhatsApp,General,2,53.0,No
+141,APT-000141,P00578,25,F,Panel,2.4,2,KS02,Shah Alam,Selangor,D002,Permanent,2026-01-06,2026-01-27,21,Tuesday,19:45,Evening,App,Follow-up,0,36.0,Yes
+142,APT-000142,P00608,63,M,Insurance,3.5,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-04-04,2026-04-14,10,Tuesday,09:00,Morning,Phone,Follow-up,0,38.0,No
+143,APT-000143,P00579,28,F,Panel,2.9,1,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-02-24,2026-02-24,0,Tuesday,19:15,Evening,App,General,0,43.5,Yes
+144,APT-000144,P00412,45,F,Panel,9.0,0,KS05,Kajang,Selangor,D011,Locum,2026-02-12,2026-02-13,1,Friday,12:30,Afternoon,WhatsApp,General,1,52.5,No
+145,APT-000145,P00275,49,M,Insurance,12.2,1,KS02,Shah Alam,Selangor,D002,Permanent,2026-02-19,2026-03-05,14,Thursday,12:15,Afternoon,App,Health screening,1,149.5,No
+146,APT-000146,P00643,29,M,Self-pay,4.6,1,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-04-12,2026-04-20,8,Monday,17:45,Evening,Website,General,1,40.5,Yes
+147,APT-000147,P00638,62,F,Self-pay,8.4,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-06-10,2026-06-23,13,Tuesday,17:00,Evening,Phone,Follow-up,2,34.5,No
+148,APT-000148,P00059,41,M,Panel,10.2,0,KS04,Klang,Selangor,D021,Permanent,2026-01-18,2026-02-03,16,Tuesday,11:30,Morning,App,Follow-up,1,31.5,No
+149,APT-000149,P00566,76,F,Insurance,17.6,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-02-20,2026-03-17,25,Tuesday,21:15,Evening,Phone,General,0,38.0,No
+150,APT-000150,P00044,45,F,Panel,2.5,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-01-19,2026-01-20,1,Tuesday,21:45,Evening,Website,General,1,49.0,No
+151,APT-000151,P00234,29,M,Panel,3.3,4,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-04-07,2026-04-08,1,Wednesday,20:45,Evening,App,General,1,40.5,Yes
+152,APT-000152,P00083,70,M,Self-pay,2.6,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-18,2026-04-27,9,Monday,17:45,Evening,Phone,General,0,36.5,No
+153,APT-000153,P00045,55,F,Insurance,13.2,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-02-12,2026-02-17,5,Tuesday,12:15,Afternoon,App,General,2,65.5,No
+154,APT-000154,P00155,46,M,Self-pay,23.5,2,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-02-28,2026-03-11,11,Wednesday,14:45,Afternoon,Website,Follow-up,0,29.0,Yes
+155,APT-000155,P00546,58,F,Self-pay,11.5,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-01-27,2026-02-03,7,Tuesday,10:30,Morning,WhatsApp,General,1,53.5,Yes
+156,APT-000156,P00423,15,M,Self-pay,2.4,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-02-03,2026-02-09,6,Monday,14:00,Afternoon,WhatsApp,General,1,35.5,No
+157,APT-000157,P00092,51,M,Self-pay,14.0,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-05-22,2026-05-22,0,Friday,14:30,Afternoon,Phone,General,0,45.31,No
+158,APT-000158,P00441,35,M,Panel,5.4,0,KS10,Rawang,Selangor,D012,Permanent,2026-03-27,2026-05-13,47,Wednesday,10:45,Morning,Website,General,1,48.0,No
+159,APT-000159,P00604,42,M,Insurance,19.2,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-04-12,2026-04-17,5,Friday,12:30,Afternoon,WhatsApp,General,2,52.5,No
+160,APT-000160,P00402,41,F,Panel,3.7,1,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-01-31,2026-02-06,6,Friday,13:00,Afternoon,App,Follow-up,1,25.5,No
+161,APT-000161,P00137,44,F,Panel,11.6,0,KS05,Kajang,Selangor,D011,Locum,2026-01-27,2026-02-05,9,Thursday,13:30,Afternoon,Phone,General,0,54.32,No
+162,APT-000162,P00656,27,F,Insurance,4.9,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-01-07,2026-01-13,6,Tuesday,18:45,Evening,Phone,General,2,40.0,No
+163,APT-000163,P00195,25,M,Panel,17.5,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-01-25,2026-01-29,4,Thursday,11:00,Morning,Website,General,0,48.5,No
+164,APT-000164,P00241,60,F,Self-pay,7.2,0,KS05,Kajang,Selangor,D011,Locum,2026-05-14,2026-06-01,18,Monday,21:15,Evening,App,General,0,52.5,No
+165,APT-000165,P00273,49,F,Panel,5.2,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-01-26,2026-02-07,12,Saturday,20:45,Evening,WhatsApp,Follow-up,2,38.0,No
+166,APT-000166,P00334,30,F,Self-pay,17.3,1,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-06-16,2026-06-22,6,Monday,21:30,Evening,App,Follow-up,1,50.0,Yes
+167,APT-000167,P00330,17,M,Self-pay,18.9,1,KS03,Subang Jaya,Selangor,D017,Permanent,2026-06-14,2026-06-23,9,Tuesday,19:00,Evening,App,General,2,45.36,No
+168,APT-000168,P00544,59,M,Self-pay,7.2,0,KS04,Klang,Selangor,D004,Permanent,2026-02-18,2026-02-23,5,Monday,09:45,Morning,App,Follow-up,1,33.5,No
+169,APT-000169,P00411,38,F,Panel,3.5,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-04-25,2026-04-30,5,Thursday,20:15,Evening,WhatsApp,General,1,46.0,No
+170,APT-000170,P00153,23,M,Self-pay,4.3,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-04-11,2026-04-11,0,Saturday,14:00,Afternoon,WhatsApp,General,0,39.0,No
+171,APT-000171,P00243,38,F,Self-pay,3.2,1,KS10,Rawang,Selangor,D012,Permanent,2026-02-20,2026-02-25,5,Wednesday,14:15,Afternoon,WhatsApp,General,1,41.0,No
+172,APT-000172,P00162,50,F,Panel,10.6,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-03-14,2026-03-24,10,Tuesday,12:30,Afternoon,Phone,Health screening,1,151.0,No
+173,APT-000173,P00041,55,F,Panel,6.4,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-04-13,2026-04-15,2,Wednesday,14:30,Afternoon,Phone,Health screening,1,152.0,No
+174,APT-000174,P00257,40,F,Self-pay,10.4,1,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-02-01,2026-02-03,2,Tuesday,21:45,Evening,WhatsApp,General,1,40.5,Yes
+175,APT-000175,P00611,21,M,Self-pay,13.0,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-01-02,2026-01-12,10,Monday,17:15,Evening,App,General,1,45.0,No
+176,APT-000176,P00341,58,M,Insurance,7.2,0,KS05,Kajang,Selangor,D005,Locum,2026-04-29,2026-05-06,7,Wednesday,19:45,Evening,WhatsApp,General,2,58.5,No
+177,APT-000177,P00373,43,M,Insurance,10.1,1,KS03,Subang Jaya,Selangor,D003,Permanent,2026-06-08,2026-06-18,10,Thursday,18:30,Evening,Website,Follow-up,0,29.5,No
+178,APT-000178,P00278,40,M,Self-pay,7.7,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-01-30,2026-02-02,3,Monday,13:15,Afternoon,WhatsApp,General,2,52.5,No
+179,APT-000179,P00128,26,M,Panel,2.5,1,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-02-03,2026-02-05,2,Thursday,09:45,Morning,WhatsApp,Follow-up,1,35.0,Yes
+180,APT-000180,P00086,32,F,Insurance,3.1,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-03-02,2026-03-04,2,Wednesday,20:30,Evening,WhatsApp,General,1,48.5,No
+181,APT-000181,P00288,49,M,Self-pay,7.7,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-05-09,2026-05-11,2,Monday,11:00,Morning,WhatsApp,Follow-up,1,27.5,No
+182,APT-000182,P00659,48,F,Self-pay,5.1,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-03-01,2026-03-02,1,Monday,15:30,Afternoon,Phone,General,1,44.5,No
+183,APT-000183,P00374,55,M,Insurance,9.4,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-01-27,2026-03-10,42,Tuesday,16:45,Afternoon,App,General,2,43.5,No
+184,APT-000184,P00178,61,M,Insurance,3.0,0,KS10,Rawang,Selangor,D012,Permanent,2026-06-06,2026-06-06,0,Saturday,20:00,Evening,Phone,Health screening,0,152.5,No
+185,APT-000185,P00395,21,F,Panel,10.9,1,KS04,Klang,Selangor,D004,Permanent,2026-02-23,2026-02-25,2,Wednesday,18:15,Evening,App,General,1,44.0,No
+186,APT-000186,P00343,64,M,Insurance,10.0,0,KS04,Klang,Selangor,D021,Permanent,2026-01-16,2026-01-16,0,Friday,20:30,Evening,WhatsApp,General,0,37.5,No
+187,APT-000187,P00367,40,F,Self-pay,2.9,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-01-11,2026-02-03,23,Tuesday,17:00,Evening,App,General,2,52.0,No
+188,APT-000188,P00215,27,F,Self-pay,13.2,1,KS03,Subang Jaya,Selangor,D017,Permanent,2026-02-08,2026-02-10,2,Tuesday,14:30,Afternoon,WhatsApp,Health screening,1,147.0,No
+189,APT-000189,P00055,80,F,Self-pay,3.2,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2025-12-24,2026-01-16,23,Friday,20:00,Evening,WhatsApp,Health screening,0,141.0,No
+190,APT-000190,P00353,45,F,Panel,6.4,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-03-30,2026-04-14,15,Tuesday,18:30,Evening,App,Follow-up,2,33.0,No
+191,APT-000191,P00164,24,M,Panel,6.6,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-04-06,2026-04-11,5,Saturday,18:00,Evening,App,Follow-up,2,32.0,No
+192,APT-000192,P00159,51,M,Self-pay,5.2,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-06-03,2026-06-08,5,Monday,09:00,Morning,WhatsApp,General,1,41.5,No
+193,APT-000193,P00018,36,F,Self-pay,12.0,0,KS10,Rawang,Selangor,D012,Permanent,2026-02-02,2026-02-11,9,Wednesday,13:30,Afternoon,App,Follow-up,1,29.0,No
+194,APT-000194,P00405,27,F,Panel,2.8,2,KS03,Subang Jaya,Selangor,D022,Permanent,2026-01-23,2026-01-27,4,Tuesday,16:15,Afternoon,App,General,2,45.5,No
+195,APT-000195,P00433,18,F,Self-pay,8.7,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-06-13,2026-06-25,12,Thursday,09:15,Morning,Website,General,2,48.0,No
+196,APT-000196,P00134,46,M,Panel,23.6,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-02-27,2026-03-07,8,Saturday,11:30,Morning,Phone,General,1,49.0,No
+197,APT-000197,P00163,38,F,Panel,1.0,0,KS04,Klang,Selangor,D004,Permanent,2026-01-23,2026-02-05,13,Thursday,20:00,Evening,App,General,2,39.0,No
+198,APT-000198,P00282,62,M,Self-pay,8.9,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-03-07,2026-03-11,4,Wednesday,18:45,Evening,Phone,Health screening,0,147.5,No
+199,APT-000199,P00325,42,F,Self-pay,3.2,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-04,2026-02-16,12,Monday,12:00,Afternoon,App,Follow-up,1,32.5,No
+200,APT-000200,P00649,44,F,Insurance,11.0,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-02-07,2026-02-23,16,Monday,14:45,Afternoon,App,General,0,61.5,No
+201,APT-000201,P00090,37,F,Panel,4.4,0,KS04,Klang,Selangor,D021,Permanent,2026-03-04,2026-03-06,2,Friday,11:30,Morning,App,Follow-up,1,31.0,No
+202,APT-000202,P00110,28,F,Panel,3.3,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-06-01,2026-06-03,2,Wednesday,11:45,Morning,WhatsApp,General,1,53.5,No
+203,APT-000203,P00030,42,M,Panel,4.5,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-01-23,2026-02-04,12,Wednesday,20:00,Evening,WhatsApp,Health screening,0,150.5,Yes
+204,APT-000204,P00299,30,F,Self-pay,6.5,2,KS09,Putrajaya,Putrajaya,D009,Permanent,2025-12-25,2026-01-06,12,Tuesday,21:00,Evening,App,General,1,50.0,Yes
+205,APT-000205,P00665,51,M,Panel,2.7,0,KS10,Rawang,Selangor,D010,Permanent,2026-01-12,2026-01-12,0,Monday,18:15,Evening,Phone,Health screening,0,142.5,No
+206,APT-000206,P00201,65,F,Self-pay,3.0,0,KS10,Rawang,Selangor,D010,Permanent,2026-05-22,2026-06-06,15,Saturday,13:45,Afternoon,Phone,General,0,41.5,Yes
+207,APT-000207,P00107,34,F,Insurance,11.9,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-01-25,2026-02-13,19,Friday,11:15,Morning,App,Follow-up,2,44.0,No
+208,APT-000208,P00214,47,F,Insurance,11.1,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-06-14,2026-06-18,4,Thursday,13:45,Afternoon,Website,General,0,52.5,No
+209,APT-000209,P00596,25,F,Self-pay,7.8,1,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-05-17,2026-05-28,11,Thursday,21:00,Evening,App,General,1,42.5,No
+210,APT-000210,P00270,56,M,Self-pay,6.3,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-01-25,2026-01-27,2,Tuesday,21:00,Evening,Phone,Follow-up,0,50.5,No
+211,APT-000211,P00625,58,M,Panel,3.4,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-03-09,2026-03-14,5,Saturday,13:45,Afternoon,WhatsApp,Health screening,2,163.0,No
+212,APT-000212,P00677,90,M,Self-pay,1.8,0,KS05,Kajang,Selangor,D011,Locum,2026-03-16,2026-03-19,3,Thursday,14:45,Afternoon,Website,General,0,59.5,No
+213,APT-000213,P00219,46,F,Insurance,3.3,2,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-03-16,2026-04-01,16,Wednesday,16:30,Afternoon,App,Follow-up,1,37.0,No
+214,APT-000214,P00479,42,F,Panel,2.5,1,KS03,Subang Jaya,Selangor,D013,Permanent,2026-05-07,2026-05-25,18,Monday,16:00,Afternoon,App,General,2,44.43,No
+215,APT-000215,P00435,24,F,Insurance,3.9,3,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-01-19,2026-01-24,5,Saturday,13:00,Afternoon,WhatsApp,General,2,52.5,No
+216,APT-000216,P00326,52,F,Self-pay,3.4,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-03-23,2026-04-22,30,Wednesday,13:30,Afternoon,Phone,Follow-up,1,30.0,No
+217,APT-000217,P00084,22,M,Insurance,11.2,0,KS04,Klang,Selangor,D021,Permanent,2026-03-28,2026-04-13,16,Monday,20:15,Evening,App,General,1,46.5,Yes
+218,APT-000218,P00132,45,M,Panel,4.2,1,KS03,Subang Jaya,Selangor,D017,Permanent,2026-02-08,2026-02-13,5,Friday,19:15,Evening,Website,Health screening,0,145.5,No
+219,APT-000219,P00672,35,M,Panel,7.7,0,KS10,Rawang,Selangor,D012,Permanent,2026-06-11,2026-06-12,1,Friday,20:45,Evening,Website,General,1,37.5,No
+220,APT-000220,P00235,41,M,Self-pay,3.0,4,KS04,Klang,Selangor,D021,Permanent,2026-03-26,2026-03-27,1,Friday,19:30,Evening,Phone,General,1,44.08,No
+221,APT-000221,P00108,43,F,Self-pay,10.2,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-05-28,2026-05-28,0,Thursday,09:30,Morning,Website,Follow-up,0,37.5,No
+222,APT-000222,P00184,31,F,Self-pay,6.7,1,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-01-23,2026-01-24,1,Saturday,15:45,Afternoon,App,General,1,38.0,No
+223,APT-000223,P00617,42,M,Panel,4.3,1,KS02,Shah Alam,Selangor,D002,Permanent,2026-05-10,2026-05-15,5,Friday,09:15,Morning,App,Health screening,1,142.0,No
+224,APT-000224,P00188,21,F,Self-pay,8.0,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-04-04,2026-04-04,0,Saturday,13:00,Afternoon,App,General,0,45.0,No
+225,APT-000225,P00248,43,F,Panel,4.9,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-03-29,2026-03-31,2,Tuesday,11:15,Morning,WhatsApp,Health screening,1,149.3,No
+226,APT-000226,P00251,33,F,Insurance,3.3,1,KS10,Rawang,Selangor,D018,Permanent,2026-01-17,2026-01-17,0,Saturday,09:15,Morning,App,Health screening,0,146.0,No
+227,APT-000227,P00148,11,F,Insurance,7.0,2,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-04-08,2026-04-14,6,Tuesday,09:00,Morning,App,General,1,40.0,No
+228,APT-000228,P00525,43,F,Panel,2.9,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-01-23,2026-01-24,1,Saturday,09:00,Morning,App,Follow-up,1,37.5,No
+229,APT-000229,P00548,34,M,Panel,10.6,0,KS05,Kajang,Selangor,D011,Locum,2026-02-27,2026-03-11,12,Wednesday,16:30,Afternoon,Website,Follow-up,0,39.5,No
+230,APT-000230,P00217,30,M,Panel,4.3,1,KS04,Klang,Selangor,D021,Permanent,2026-05-28,2026-05-29,1,Friday,15:45,Afternoon,Website,Health screening,1,152.5,Yes
+231,APT-000231,P00286,31,F,Panel,5.3,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-06-13,2026-06-17,4,Wednesday,19:00,Evening,WhatsApp,General,2,27.5,No
+232,APT-000232,P00131,10,M,Self-pay,1.9,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-05-22,2026-05-27,5,Wednesday,17:00,Evening,App,General,2,53.0,No
+233,APT-000233,P00026,56,F,Panel,2.9,1,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-04-15,2026-04-23,8,Thursday,21:30,Evening,Website,Health screening,2,151.0,No
+234,APT-000234,P00249,55,F,Panel,3.6,1,KS03,Subang Jaya,Selangor,D013,Permanent,2026-06-24,2026-06-24,0,Wednesday,20:45,Evening,WhatsApp,Follow-up,0,33.5,No
+235,APT-000235,P00137,44,F,Panel,11.6,0,KS04,Klang,Selangor,D004,Permanent,2026-05-05,2026-05-06,1,Wednesday,16:45,Afternoon,WhatsApp,General,1,44.0,No
+236,APT-000236,P00137,44,F,Panel,11.6,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-04-02,2026-04-04,2,Saturday,15:00,Afternoon,WhatsApp,Health screening,1,152.5,No
+237,APT-000237,P00603,25,F,Insurance,5.3,0,KS10,Rawang,Selangor,D018,Permanent,2026-05-25,2026-05-26,1,Tuesday,16:45,Afternoon,App,General,1,40.0,No
+238,APT-000238,P00524,19,F,Self-pay,5.0,1,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-01-01,2026-01-28,27,Wednesday,12:45,Afternoon,Website,General,2,45.0,No
+239,APT-000239,P00517,27,F,Panel,3.4,2,KS03,Subang Jaya,Selangor,D020,Permanent,2026-01-04,2026-01-17,13,Saturday,10:30,Morning,App,General,1,41.0,No
+240,APT-000240,P00493,75,F,Self-pay,4.2,1,KS10,Rawang,Selangor,D010,Permanent,2026-03-20,2026-04-18,29,Saturday,14:30,Afternoon,App,Follow-up,2,39.5,No
+241,APT-000241,P00431,50,M,Panel,3.1,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-03-30,2026-04-10,11,Friday,09:15,Morning,WhatsApp,Follow-up,0,31.5,No
+242,APT-000242,P00019,61,F,Insurance,3.8,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-02-15,2026-02-17,2,Tuesday,19:00,Evening,WhatsApp,Health screening,1,149.5,No
+243,APT-000243,P00568,31,F,Self-pay,4.2,0,KS10,Rawang,Selangor,D010,Permanent,2025-12-19,2026-01-08,20,Thursday,09:30,Morning,App,General,1,53.0,Yes
+244,APT-000244,P00197,17,M,Self-pay,4.8,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-03-12,2026-03-21,9,Saturday,15:15,Afternoon,App,General,2,43.5,No
+245,APT-000245,P00558,47,M,Panel,3.3,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-01-15,2026-01-22,7,Thursday,15:00,Afternoon,Website,Health screening,2,149.79,No
+246,APT-000246,P00327,29,F,Insurance,13.8,1,KS03,Subang Jaya,Selangor,D023,Permanent,2026-06-19,2026-06-20,1,Saturday,10:45,Morning,App,General,1,45.0,No
+247,APT-000247,P00103,28,M,Panel,2.3,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-02-26,2026-03-03,5,Tuesday,14:00,Afternoon,Phone,General,0,41.5,No
+248,APT-000248,P00093,32,M,Self-pay,5.5,1,KS03,Subang Jaya,Selangor,D023,Permanent,2026-03-10,2026-03-18,8,Wednesday,18:45,Evening,WhatsApp,General,2,34.0,No
+249,APT-000249,P00531,25,M,Panel,5.2,4,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-02-20,2026-03-05,13,Thursday,18:00,Evening,WhatsApp,General,0,42.0,Yes
+250,APT-000250,P00194,18,M,Self-pay,11.1,1,KS10,Rawang,Selangor,D012,Permanent,2026-02-01,2026-02-03,2,Tuesday,14:45,Afternoon,Phone,General,1,46.0,No
+251,APT-000251,P00235,41,M,Self-pay,3.0,4,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-05-01,2026-06-12,42,Friday,21:30,Evening,App,General,2,51.5,Yes
+252,APT-000252,P00391,31,M,Panel,12.5,0,KS10,Rawang,Selangor,D010,Permanent,2026-03-05,2026-03-07,2,Saturday,18:30,Evening,App,Follow-up,1,38.5,No
+253,APT-000253,P00375,86,F,Self-pay,7.6,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-04-05,2026-04-10,5,Friday,21:00,Evening,WhatsApp,General,2,37.0,Yes
+254,APT-000254,P00018,36,F,Self-pay,12.0,0,KS10,Rawang,Selangor,D010,Permanent,2026-03-31,2026-04-02,2,Thursday,17:00,Evening,App,General,1,36.5,No
+255,APT-000255,P00555,25,F,Panel,11.7,1,KS03,Subang Jaya,Selangor,D015,Locum,2026-04-27,2026-05-28,31,Thursday,10:15,Morning,App,Health screening,2,157.5,No
+256,APT-000256,P00029,38,F,Self-pay,6.0,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-03-05,2026-03-16,11,Monday,10:00,Morning,WhatsApp,General,2,43.5,No
+257,APT-000257,P00034,29,F,Panel,3.1,2,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-05-30,2026-06-04,5,Thursday,15:00,Afternoon,App,Follow-up,1,35.5,Yes
+258,APT-000258,P00428,33,F,Panel,9.1,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-06-07,2026-06-13,6,Saturday,17:45,Evening,Website,Health screening,1,155.5,No
+259,APT-000259,P00407,29,M,Panel,1.4,1,KS03,Subang Jaya,Selangor,D003,Permanent,2026-01-06,2026-01-14,8,Wednesday,19:15,Evening,Website,General,0,39.0,No
+260,APT-000260,P00050,59,M,Insurance,6.2,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-02-23,2026-02-24,1,Tuesday,13:15,Afternoon,App,Follow-up,1,34.5,No
+261,APT-000261,P00386,56,F,Self-pay,8.8,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-04-08,2026-04-11,3,Saturday,10:45,Morning,Website,General,2,45.0,No
+262,APT-000262,P00625,58,M,Panel,3.4,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-01-15,2026-01-26,11,Monday,18:00,Evening,App,General,2,44.0,No
+263,APT-000263,P00296,41,M,Self-pay,8.6,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-03-06,2026-04-09,34,Thursday,15:45,Afternoon,Phone,General,0,42.5,No
+264,APT-000264,P00225,60,F,Insurance,3.2,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-01-02,2026-01-12,10,Monday,12:30,Afternoon,Phone,Health screening,0,142.5,No
+265,APT-000265,P00582,26,F,Panel,4.4,1,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-01-09,2026-01-22,13,Thursday,12:00,Afternoon,App,General,0,39.5,Yes
+266,APT-000266,P00296,41,M,Self-pay,8.6,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-02-17,2026-03-09,20,Monday,19:00,Evening,App,Follow-up,1,35.5,No
+267,APT-000267,P00431,50,M,Panel,3.1,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-02-07,2026-02-09,2,Monday,11:00,Morning,WhatsApp,General,0,44.9,No
+268,APT-000268,P00059,41,M,Panel,10.2,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-06-05,2026-06-10,5,Wednesday,17:30,Evening,App,General,2,47.0,No
+269,APT-000269,P00230,60,M,Insurance,25.5,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-02-02,2026-02-02,0,Monday,20:00,Evening,App,Health screening,0,147.0,No
+270,APT-000270,P00056,43,M,Panel,18.8,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-03-10,2026-03-10,0,Tuesday,17:45,Evening,App,General,0,43.0,No
+271,APT-000271,P00268,55,M,Self-pay,3.7,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-01-17,2026-01-19,2,Monday,17:30,Evening,WhatsApp,Health screening,1,151.5,No
+272,APT-000272,P00177,47,M,Panel,5.9,1,KS10,Rawang,Selangor,D018,Permanent,2026-06-04,2026-06-20,16,Saturday,09:45,Morning,App,General,1,39.0,No
+273,APT-000273,P00513,31,F,Insurance,15.3,0,KS10,Rawang,Selangor,D010,Permanent,2026-04-01,2026-04-03,2,Friday,11:00,Morning,WhatsApp,General,1,39.5,No
+274,APT-000274,P00500,40,M,Insurance,5.2,0,KS04,Klang,Selangor,D004,Permanent,2026-05-12,2026-05-12,0,Tuesday,21:15,Evening,App,General,0,42.5,No
+275,APT-000275,P00304,47,M,Panel,5.4,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-05-05,2026-05-11,6,Monday,12:00,Afternoon,App,General,1,50.5,No
+276,APT-000276,P00644,21,F,Insurance,11.0,2,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-04-08,2026-04-09,1,Thursday,20:15,Evening,App,General,1,43.5,Yes
+277,APT-000277,P00446,34,F,Panel,6.6,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-05-02,2026-05-02,0,Saturday,13:45,Afternoon,Website,General,0,52.5,No
+278,APT-000278,P00680,44,F,Self-pay,19.2,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-19,2026-04-20,1,Monday,10:45,Morning,App,Health screening,1,158.0,No
+279,APT-000279,P00066,29,M,Self-pay,5.3,0,KS10,Rawang,Selangor,D010,Permanent,2026-02-18,2026-03-13,23,Friday,16:30,Afternoon,WhatsApp,Follow-up,1,39.0,No
+280,APT-000280,P00079,56,M,Insurance,3.9,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-02-17,2026-03-10,21,Tuesday,16:45,Afternoon,Website,General,0,41.5,No
+281,APT-000281,P00451,20,F,Self-pay,4.1,3,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-04-01,2026-04-04,3,Saturday,20:15,Evening,WhatsApp,General,2,39.0,Yes
+282,APT-000282,P00358,27,F,Insurance,3.5,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-01-27,2026-03-14,46,Saturday,17:15,Evening,WhatsApp,General,1,46.0,Yes
+283,APT-000283,P00286,31,F,Panel,5.3,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-01-22,2026-01-26,4,Monday,20:00,Evening,WhatsApp,Follow-up,0,36.5,No
+284,APT-000284,P00218,39,M,Panel,8.6,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-05-04,2026-05-04,0,Monday,17:30,Evening,WhatsApp,General,0,54.0,No
+285,APT-000285,P00266,17,F,Panel,3.3,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-06-18,2026-06-24,6,Wednesday,15:30,Afternoon,App,Health screening,2,152.5,No
+286,APT-000286,P00334,30,F,Self-pay,17.3,1,KS03,Subang Jaya,Selangor,D013,Permanent,2026-02-08,2026-02-09,1,Monday,20:30,Evening,App,General,1,45.0,Yes
+287,APT-000287,P00413,37,F,Panel,2.7,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-01-18,2026-01-22,4,Thursday,18:15,Evening,App,Follow-up,2,33.5,No
+288,APT-000288,P00482,41,M,Panel,3.9,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-02-13,2026-03-03,18,Tuesday,12:45,Afternoon,Phone,Follow-up,0,50.0,No
+289,APT-000289,P00350,48,F,Insurance,7.5,0,KS04,Klang,Selangor,D021,Permanent,2026-05-07,2026-05-25,18,Monday,19:45,Evening,Phone,General,2,44.69,No
+290,APT-000290,P00429,24,F,Panel,5.2,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-05-24,2026-05-26,2,Tuesday,17:15,Evening,App,General,1,35.0,No
+291,APT-000291,P00558,42,M,Panel,3.3,0,KS03,Subang Jaya,Selangor,D023,Permanent,2025-12-26,2026-01-15,20,Thursday,14:45,Afternoon,App,General,2,49.0,No
+292,APT-000292,P00016,25,M,Insurance,19.7,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-03-07,2026-03-21,14,Saturday,18:30,Evening,Phone,Follow-up,2,36.5,No
+293,APT-000293,P00592,26,F,Self-pay,5.4,3,KS10,Rawang,Selangor,D012,Permanent,2026-02-11,2026-02-23,12,Monday,19:00,Evening,Phone,Follow-up,0,34.33,Yes
+294,APT-000294,P00439,66,M,Self-pay,3.9,0,KS05,Kajang,Selangor,D005,Locum,2026-05-13,2026-05-14,1,Thursday,18:00,Evening,Phone,Follow-up,1,36.0,No
+295,APT-000295,P00468,17,M,Self-pay,4.5,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-06-06,2026-06-08,2,Monday,20:45,Evening,WhatsApp,General,0,50.0,No
+296,APT-000296,P00535,60,M,Self-pay,9.0,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-04-07,2026-04-30,23,Thursday,09:00,Morning,Phone,General,1,48.5,No
+297,APT-000297,P00370,40,F,Panel,5.0,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-04-25,2026-04-27,2,Monday,15:30,Afternoon,WhatsApp,General,1,44.64,No
+298,APT-000298,P00522,52,M,Panel,3.2,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-03-12,2026-04-18,37,Saturday,14:30,Afternoon,App,Follow-up,2,44.34,Yes
+299,APT-000299,P00362,46,F,Insurance,3.3,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2025-12-29,2026-02-02,35,Monday,10:00,Morning,WhatsApp,General,1,37.5,No
+300,APT-000300,P00528,56,F,Panel,19.4,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-05-25,2026-05-25,0,Monday,12:15,Afternoon,App,Health screening,0,149.95,No
+301,APT-000301,P00456,43,F,Panel,3.8,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-02-11,2026-02-17,6,Tuesday,10:30,Morning,Phone,General,2,48.0,No
+302,APT-000302,P00162,50,F,Panel,10.6,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-06-06,2026-06-27,21,Saturday,12:00,Afternoon,App,Health screening,2,154.0,No
+303,APT-000303,P00149,33,F,Self-pay,8.1,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-04-26,2026-04-29,3,Wednesday,16:15,Afternoon,App,General,1,46.0,No
+304,APT-000304,P00109,22,M,Insurance,7.4,1,KS10,Rawang,Selangor,D018,Permanent,2026-03-17,2026-03-30,13,Monday,12:45,Afternoon,App,General,1,53.5,No
+305,APT-000305,P00210,47,M,Panel,8.7,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-03-24,2026-03-31,7,Tuesday,16:00,Afternoon,Phone,General,0,42.0,No
+306,APT-000306,P00177,47,M,Panel,5.9,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-04-18,2026-04-30,12,Thursday,10:45,Morning,Website,General,0,47.5,No
+307,APT-000307,P00546,58,F,Self-pay,11.5,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2025-11-26,2026-01-10,45,Saturday,13:45,Afternoon,App,General,1,51.5,Yes
+308,APT-000308,P00017,20,M,Self-pay,3.8,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-01-27,2026-01-29,2,Thursday,20:30,Evening,App,General,1,44.0,No
+309,APT-000309,P00073,42,M,Panel,13.0,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-05-15,2026-06-11,27,Thursday,11:45,Morning,WhatsApp,General,1,42.0,No
+310,APT-000310,P00040,15,F,Insurance,6.9,1,KS03,Subang Jaya,Selangor,D017,Permanent,2026-01-03,2026-01-14,11,Wednesday,12:15,Afternoon,WhatsApp,General,2,51.0,No
+311,APT-000311,P00183,48,F,Self-pay,6.7,1,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-02-07,2026-03-10,31,Tuesday,20:15,Evening,Phone,Follow-up,2,38.0,No
+312,APT-000312,P00550,39,M,Panel,6.2,0,KS10,Rawang,Selangor,D018,Permanent,2026-01-05,2026-01-31,26,Saturday,13:30,Afternoon,App,General,2,44.0,No
+313,APT-000313,P00521,41,F,Panel,7.0,3,KS03,Subang Jaya,Selangor,D013,Permanent,2026-04-21,2026-05-07,16,Thursday,14:00,Afternoon,App,Follow-up,1,39.0,No
+314,APT-000314,P00200,45,M,Panel,2.8,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-01-06,2026-01-06,0,Tuesday,17:30,Evening,App,Follow-up,0,41.5,No
+315,APT-000315,P00323,50,F,Self-pay,6.6,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-04-16,2026-04-21,5,Tuesday,16:45,Afternoon,Phone,General,0,53.96,No
+316,APT-000316,P00450,42,F,Self-pay,6.0,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-06-04,2026-06-04,0,Thursday,18:30,Evening,WhatsApp,General,0,46.0,No
+317,APT-000317,P00553,35,F,Insurance,6.7,0,KS05,Kajang,Selangor,D005,Locum,2026-01-19,2026-01-31,12,Saturday,15:00,Afternoon,WhatsApp,General,1,55.0,No
+318,APT-000318,P00693,53,M,Panel,3.9,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-05-01,2026-05-01,0,Friday,21:15,Evening,WhatsApp,Follow-up,0,35.0,No
+319,APT-000319,P00611,21,M,Self-pay,13.0,0,KS05,Kajang,Selangor,D011,Locum,2025-12-17,2026-01-07,21,Wednesday,18:30,Evening,WhatsApp,General,1,49.0,No
+320,APT-000320,P00241,60,F,Self-pay,7.2,0,KS10,Rawang,Selangor,D012,Permanent,2026-02-24,2026-02-24,0,Tuesday,18:00,Evening,Phone,General,0,44.39,No
+321,APT-000321,P00312,19,F,Self-pay,7.2,1,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-03-29,2026-04-07,9,Tuesday,20:30,Evening,WhatsApp,General,2,49.0,No
+322,APT-000322,P00055,80,F,Self-pay,3.2,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-01-19,2026-01-26,7,Monday,20:30,Evening,Phone,Follow-up,0,38.0,Yes
+323,APT-000323,P00672,35,M,Panel,7.7,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-03-01,2026-03-17,16,Tuesday,13:00,Afternoon,Phone,General,0,37.0,No
+324,APT-000324,P00028,83,F,Self-pay,7.2,1,KS03,Subang Jaya,Selangor,D013,Permanent,2026-01-20,2026-02-03,14,Tuesday,15:45,Afternoon,Phone,Health screening,0,147.0,No
+325,APT-000325,P00037,34,M,Panel,3.2,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-01-29,2026-02-11,13,Wednesday,16:00,Afternoon,App,General,1,50.5,No
+326,APT-000326,P00029,38,F,Self-pay,6.0,0,KS10,Rawang,Selangor,D010,Permanent,2026-02-19,2026-02-19,0,Thursday,13:30,Afternoon,WhatsApp,General,0,45.0,No
+327,APT-000327,P00369,37,F,Insurance,3.1,1,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-03-17,2026-04-01,15,Wednesday,17:30,Evening,App,Follow-up,1,34.57,No
+328,APT-000328,P00059,41,M,Panel,10.2,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-02-11,2026-02-13,2,Friday,21:30,Evening,WhatsApp,Follow-up,1,39.0,No
+329,APT-000329,P00655,39,F,Self-pay,9.3,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-01-31,2026-02-24,24,Tuesday,19:00,Evening,WhatsApp,General,1,46.5,Yes
+330,APT-000330,P00171,34,M,Panel,12.3,1,KS03,Subang Jaya,Selangor,D022,Permanent,2025-12-23,2026-01-05,13,Monday,15:30,Afternoon,Phone,General,2,44.0,No
+331,APT-000331,P00560,41,M,Panel,7.2,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-01-16,2026-01-29,13,Thursday,17:30,Evening,Website,General,0,47.5,No
+332,APT-000332,P00203,37,F,Panel,14.2,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-01-27,2026-02-03,7,Tuesday,15:15,Afternoon,WhatsApp,General,1,44.0,Yes
+333,APT-000333,P00164,24,M,Panel,6.6,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-01-04,2026-01-10,6,Saturday,12:45,Afternoon,App,General,1,42.0,No
+334,APT-000334,P00427,76,M,Insurance,24.4,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-02-05,2026-02-09,4,Monday,16:00,Afternoon,Phone,General,1,43.0,No
+335,APT-000335,P00334,46,F,Self-pay,17.3,1,KS04,Klang,Selangor,D004,Permanent,2026-02-01,2026-02-21,20,Saturday,19:30,Evening,Phone,General,1,45.0,No
+336,APT-000336,P00279,48,F,Panel,3.4,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-03-10,2026-03-13,3,Friday,21:15,Evening,Website,General,1,52.0,No
+337,APT-000337,P00319,37,F,Panel,5.0,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-02-04,2026-02-16,12,Monday,14:30,Afternoon,WhatsApp,Follow-up,2,37.0,No
+338,APT-000338,P00700,90,F,Self-pay,3.7,0,KS04,Klang,Selangor,D004,Permanent,2026-02-13,2026-02-19,6,Thursday,11:00,Morning,WhatsApp,Health screening,0,155.5,No
+339,APT-000339,P00547,42,F,Self-pay,14.6,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-01-12,2026-01-14,2,Wednesday,10:15,Morning,Website,Follow-up,0,45.45,No
+340,APT-000340,P00229,33,M,Insurance,2.4,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-02-15,2026-02-28,13,Saturday,11:30,Morning,App,General,0,56.0,No
+341,APT-000341,P00097,35,F,Panel,8.4,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-04-05,2026-04-07,2,Tuesday,21:30,Evening,WhatsApp,Follow-up,1,32.0,No
+342,APT-000342,P00126,28,F,Self-pay,2.8,3,KS04,Klang,Selangor,D021,Permanent,2026-04-10,2026-04-17,7,Friday,09:30,Morning,App,General,1,47.5,No
+343,APT-000343,P00334,30,F,Self-pay,17.3,1,KS04,Klang,Selangor,D004,Permanent,2026-06-01,2026-06-17,16,Wednesday,17:45,Evening,App,General,2,44.5,No
+344,APT-000344,P00559,48,M,Panel,4.4,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-28,2026-05-07,9,Thursday,12:15,Afternoon,App,Follow-up,2,29.5,No
+345,APT-000345,P00122,25,M,Panel,17.1,1,KS03,Subang Jaya,Selangor,D013,Permanent,2026-02-16,2026-03-03,15,Tuesday,09:00,Morning,Website,Follow-up,0,39.0,No
+346,APT-000346,P00284,16,M,Self-pay,17.5,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-01-18,2026-01-27,9,Tuesday,13:45,Afternoon,WhatsApp,Follow-up,1,48.0,No
+347,APT-000347,P00117,34,M,Panel,4.4,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-04-30,2026-04-30,0,Thursday,14:30,Afternoon,App,General,0,54.0,No
+348,APT-000348,P00212,41,F,Self-pay,6.1,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-04-18,2026-06-15,58,Monday,09:15,Morning,WhatsApp,Health screening,0,151.0,Yes
+349,APT-000349,P00322,6,F,Self-pay,1.5,3,KS09,Putrajaya,Putrajaya,D024,Locum,2026-02-28,2026-03-14,14,Saturday,20:45,Evening,WhatsApp,Follow-up,1,44.0,No
+350,APT-000350,P00195,36,M,Panel,17.5,0,KS10,Rawang,Selangor,D012,Permanent,2026-01-08,2026-01-12,4,Monday,11:30,Morning,App,Follow-up,2,32.5,No
+351,APT-000351,P00030,42,M,Panel,4.5,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-05-06,2026-05-08,2,Friday,11:45,Morning,App,General,1,59.5,No
+352,APT-000352,P00283,84,F,Self-pay,2.9,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-05-14,2026-06-06,23,Saturday,14:15,Afternoon,Phone,General,1,40.0,No
+353,APT-000353,P00572,48,M,Self-pay,8.8,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-01-01,2026-01-05,4,Monday,21:30,Evening,WhatsApp,General,1,43.0,No
+354,APT-000354,P00503,59,M,Self-pay,6.2,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-01-31,2026-02-27,27,Friday,09:45,Morning,App,General,2,38.0,No
+355,APT-000355,P00299,29,F,Self-pay,6.5,2,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-01-24,2026-02-14,21,Saturday,13:45,Afternoon,App,General,1,45.0,Yes
+356,APT-000356,P00352,44,M,Self-pay,6.9,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-03-27,2026-03-30,3,Monday,12:00,Afternoon,Phone,General,2,55.0,No
+357,APT-000357,P00696,35,M,Self-pay,6.6,0,KS04,Klang,Selangor,D021,Permanent,2026-04-05,2026-04-10,5,Friday,12:00,Afternoon,Phone,General,2,48.0,No
+358,APT-000358,P00480,73,M,Self-pay,8.9,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-04-17,2026-04-21,4,Tuesday,15:00,Afternoon,Phone,Health screening,0,143.5,No
+359,APT-000359,P00516,34,M,Insurance,30.9,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-03-09,2026-03-14,5,Saturday,10:45,Morning,App,General,2,56.5,No
+360,APT-000360,P00152,43,M,Panel,5.5,0,KS05,Kajang,Selangor,D005,Locum,2026-01-12,2026-01-14,2,Wednesday,14:00,Afternoon,App,General,1,48.0,No
+361,APT-000361,P00627,67,M,Self-pay,16.6,0,KS10,Rawang,Selangor,D018,Permanent,2026-04-21,2026-04-25,4,Saturday,18:15,Evening,Phone,Follow-up,2,34.0,No
+362,APT-000362,P00178,74,M,Insurance,3.0,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-03-27,2026-03-27,0,Friday,09:30,Morning,App,General,0,51.0,No
+363,APT-000363,P00110,28,F,Panel,3.3,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-01-01,2026-01-14,13,Wednesday,12:30,Afternoon,Phone,Follow-up,2,31.0,No
+364,APT-000364,P00648,25,M,Panel,8.1,1,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-05-21,2026-05-30,9,Saturday,10:45,Morning,WhatsApp,Follow-up,0,31.5,Yes
+365,APT-000365,P00630,21,F,Self-pay,7.0,1,KS10,Rawang,Selangor,D012,Permanent,2026-04-24,2026-05-14,20,Thursday,17:45,Evening,App,General,2,42.5,No
+366,APT-000366,P00437,32,M,Panel,13.6,1,KS03,Subang Jaya,Selangor,D013,Permanent,2026-01-16,2026-01-26,10,Monday,21:45,Evening,App,General,1,41.0,No
+367,APT-000367,P00183,49,F,Self-pay,6.7,1,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-01-28,2026-01-28,0,Wednesday,12:30,Afternoon,App,General,0,37.0,No
+368,APT-000368,P00368,36,M,Self-pay,2.2,1,KS05,Kajang,Selangor,D005,Locum,2026-01-01,2026-01-08,7,Thursday,16:45,Afternoon,Website,General,1,55.5,No
+369,APT-000369,P00243,38,F,Self-pay,3.2,1,KS04,Klang,Selangor,D021,Permanent,2026-05-18,2026-05-25,7,Monday,14:30,Afternoon,App,Health screening,1,157.5,No
+370,APT-000370,P00556,23,M,Self-pay,6.2,1,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-04-23,2026-05-06,13,Wednesday,17:15,Evening,WhatsApp,General,2,47.0,No
+371,APT-000371,P00266,17,F,Panel,3.3,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-01-27,2026-01-28,1,Wednesday,09:00,Morning,App,General,1,55.5,No
+372,APT-000372,P00489,26,F,Panel,26.0,0,KS10,Rawang,Selangor,D012,Permanent,2026-02-12,2026-02-17,5,Tuesday,21:00,Evening,Phone,General,0,45.0,No
+373,APT-000373,P00634,41,M,Insurance,7.3,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-03-17,2026-03-17,0,Tuesday,17:45,Evening,WhatsApp,Follow-up,0,31.5,No
+374,APT-000374,P00523,41,F,Panel,3.8,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-05-14,2026-05-25,11,Monday,12:15,Afternoon,Phone,Follow-up,2,37.5,No
+375,APT-000375,P00498,54,F,Insurance,5.5,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-01-20,2026-01-22,2,Thursday,09:15,Morning,Phone,Follow-up,1,35.5,No
+376,APT-000376,P00633,45,M,Self-pay,6.4,1,KS03,Subang Jaya,Selangor,D023,Permanent,2026-05-21,2026-05-21,0,Thursday,20:30,Evening,App,General,0,48.0,No
+377,APT-000377,P00281,25,F,Panel,5.9,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-01-30,2026-02-03,4,Tuesday,15:45,Afternoon,App,General,2,44.5,No
+378,APT-000378,P00069,65,F,Self-pay,7.3,0,KS04,Klang,Selangor,D021,Permanent,2026-06-17,2026-06-20,3,Saturday,20:00,Evening,Phone,Follow-up,1,29.0,No
+379,APT-000379,P00059,41,M,Panel,10.2,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-06-03,2026-06-08,5,Monday,18:45,Evening,Phone,Follow-up,0,35.1,No
+380,APT-000380,P00502,36,F,Panel,4.4,0,KS05,Kajang,Selangor,D005,Locum,2026-01-09,2026-01-17,8,Saturday,11:00,Morning,WhatsApp,General,1,51.0,No
+381,APT-000381,P00424,45,F,Self-pay,14.3,0,KS10,Rawang,Selangor,D018,Permanent,2026-01-07,2026-01-16,9,Friday,19:15,Evening,App,General,2,43.0,No
+382,APT-000382,P00161,24,F,Self-pay,4.5,4,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-07,2026-02-12,5,Thursday,18:00,Evening,App,General,2,43.0,No
+383,APT-000383,P00605,85,M,Insurance,7.2,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-01-11,2026-01-13,2,Tuesday,09:15,Morning,Phone,Health screening,0,163.0,No
+384,APT-000384,P00682,22,F,Insurance,7.1,0,KS10,Rawang,Selangor,D018,Permanent,2026-02-12,2026-02-13,1,Friday,09:00,Morning,WhatsApp,General,1,34.0,No
+385,APT-000385,P00139,52,F,Panel,3.1,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-06-12,2026-06-22,10,Monday,15:15,Afternoon,WhatsApp,General,2,49.5,No
+386,APT-000386,P00593,43,F,Panel,5.9,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-05-24,2026-05-25,1,Monday,14:00,Afternoon,App,Follow-up,1,41.0,No
+387,APT-000387,P00243,38,F,Self-pay,3.2,1,KS03,Subang Jaya,Selangor,D003,Permanent,2026-04-09,2026-05-02,23,Saturday,20:30,Evening,Phone,General,0,48.5,Yes
+388,APT-000388,P00557,15,F,Self-pay,13.6,0,KS05,Kajang,Selangor,D005,Locum,2026-01-22,2026-02-02,11,Monday,15:45,Afternoon,App,General,2,53.0,Yes
+389,APT-000389,P00365,36,F,Panel,22.4,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-02-06,2026-02-11,5,Wednesday,09:15,Morning,WhatsApp,General,1,42.0,No
+390,APT-000390,P00585,35,M,Panel,24.8,1,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-01-13,2026-01-17,4,Saturday,18:45,Evening,Phone,Follow-up,2,32.0,Yes
+391,APT-000391,P00471,26,M,Self-pay,3.7,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-04-11,2026-04-17,6,Friday,19:45,Evening,App,Follow-up,1,35.5,Yes
+392,APT-000392,P00443,42,M,Panel,4.4,1,KS02,Shah Alam,Selangor,D002,Permanent,2026-02-26,2026-03-07,9,Saturday,12:15,Afternoon,Phone,General,0,44.5,No
+393,APT-000393,P00406,39,F,Panel,5.9,2,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-06-07,2026-06-16,9,Tuesday,15:15,Afternoon,App,General,2,47.5,No
+394,APT-000394,P00032,61,F,Insurance,8.2,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-05-11,2026-05-15,4,Friday,18:15,Evening,Phone,Health screening,0,145.0,No
+395,APT-000395,P00113,42,F,Panel,3.2,0,KS05,Kajang,Selangor,D011,Locum,2026-02-20,2026-03-02,10,Monday,16:30,Afternoon,Website,Follow-up,2,41.0,No
+396,APT-000396,P00388,46,M,Panel,11.2,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-01-11,2026-01-16,5,Friday,20:00,Evening,App,General,1,54.0,No
+397,APT-000397,P00637,10,F,Self-pay,6.3,1,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-05-12,2026-05-13,1,Wednesday,21:45,Evening,App,General,1,55.0,No
+398,APT-000398,P00663,42,M,Panel,5.1,0,KS10,Rawang,Selangor,D012,Permanent,2026-01-15,2026-01-27,12,Tuesday,20:45,Evening,App,Follow-up,1,34.83,No
+399,APT-000399,P00699,33,F,Self-pay,6.6,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-30,2026-05-02,2,Saturday,16:30,Afternoon,WhatsApp,General,1,50.5,No
+400,APT-000400,P00369,47,F,Insurance,3.1,1,KS03,Subang Jaya,Selangor,D013,Permanent,2026-02-20,2026-03-03,11,Tuesday,19:45,Evening,Phone,Follow-up,1,34.5,No
+401,APT-000401,P00246,72,M,Insurance,5.9,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-04-16,2026-04-25,9,Saturday,19:00,Evening,Phone,General,2,45.0,No
+402,APT-000402,P00245,48,F,Self-pay,35.7,0,KS03,Subang Jaya,Selangor,D023,Permanent,2025-12-18,2026-01-19,32,Monday,17:45,Evening,WhatsApp,General,2,46.26,No
+403,APT-000403,P00475,50,M,Insurance,7.5,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-05-23,2026-06-09,17,Tuesday,12:30,Afternoon,Phone,General,0,40.0,No
+404,APT-000404,P00242,60,F,Self-pay,11.1,1,KS03,Subang Jaya,Selangor,D003,Permanent,2026-04-11,2026-04-28,17,Tuesday,16:45,Afternoon,App,General,2,44.0,No
+405,APT-000405,P00661,23,F,Insurance,3.5,2,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-01,2026-02-03,2,Tuesday,20:00,Evening,App,General,1,34.0,No
+406,APT-000406,P00342,55,F,Insurance,12.0,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-01-24,2026-02-20,27,Friday,10:00,Morning,Phone,General,1,46.5,No
+407,APT-000407,P00333,90,M,Self-pay,5.4,1,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-05-13,2026-05-15,2,Friday,16:45,Afternoon,Phone,Follow-up,0,38.5,No
+408,APT-000408,P00238,47,M,Panel,9.9,0,KS10,Rawang,Selangor,D012,Permanent,2026-03-13,2026-03-13,0,Friday,12:15,Afternoon,Phone,General,0,52.0,No
+409,APT-000409,P00611,21,M,Self-pay,13.0,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-01-18,2026-02-12,25,Thursday,14:30,Afternoon,App,General,2,37.5,No
+410,APT-000410,P00554,58,F,Panel,26.5,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-02-15,2026-03-12,25,Thursday,15:15,Afternoon,App,Follow-up,1,30.0,Yes
+411,APT-000411,P00004,36,F,Panel,5.5,1,KS09,Putrajaya,Putrajaya,D024,Locum,2025-12-28,2026-01-05,8,Monday,19:30,Evening,App,General,2,53.67,No
+412,APT-000412,P00643,29,M,Self-pay,4.6,1,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-04-04,2026-04-14,10,Tuesday,21:45,Evening,WhatsApp,Follow-up,2,34.72,No
+413,APT-000413,P00426,76,F,Self-pay,9.9,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-05-28,2026-06-11,14,Thursday,17:15,Evening,Phone,General,1,55.0,No
+414,APT-000414,P00239,49,M,Panel,8.2,1,KS03,Subang Jaya,Selangor,D017,Permanent,2026-01-02,2026-01-19,17,Monday,10:00,Morning,Website,General,0,45.0,No
+415,APT-000415,P00216,39,M,Panel,4.0,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-01-16,2026-01-23,7,Friday,13:45,Afternoon,Website,General,1,36.0,No
+416,APT-000416,P00416,16,M,Self-pay,6.2,1,KS03,Subang Jaya,Selangor,D015,Locum,2026-02-13,2026-02-14,1,Saturday,11:30,Morning,App,General,1,59.5,No
+417,APT-000417,P00647,29,F,Panel,7.1,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-06-11,2026-06-18,7,Thursday,18:45,Evening,WhatsApp,General,1,47.0,No
+418,APT-000418,P00116,64,M,Insurance,4.7,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-02-14,2026-03-16,30,Monday,09:15,Morning,Phone,General,0,51.0,No
+419,APT-000419,P00438,42,F,Insurance,3.6,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-05-31,2026-06-08,8,Monday,15:15,Afternoon,Phone,Health screening,0,158.0,No
+420,APT-000420,P00321,38,F,Self-pay,12.5,0,KS04,Klang,Selangor,D021,Permanent,2026-01-17,2026-01-17,0,Saturday,21:15,Evening,WhatsApp,General,0,52.0,No
+421,APT-000421,P00260,38,F,Self-pay,2.8,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-03-31,2026-04-06,6,Monday,17:00,Evening,App,Follow-up,0,28.0,Yes
+422,APT-000422,P00513,31,F,Insurance,15.3,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-06-15,2026-06-16,1,Tuesday,17:45,Evening,WhatsApp,General,1,43.0,No
+423,APT-000423,P00577,42,F,Self-pay,2.1,1,KS05,Kajang,Selangor,D005,Locum,2026-02-18,2026-03-09,19,Monday,12:30,Afternoon,WhatsApp,Health screening,2,155.5,No
+424,APT-000424,P00659,51,F,Self-pay,5.1,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-04-17,2026-05-06,19,Wednesday,13:15,Afternoon,WhatsApp,Health screening,2,143.0,No
+425,APT-000425,P00113,42,F,Panel,3.2,0,KS05,Kajang,Selangor,D011,Locum,2026-06-06,2026-06-12,6,Friday,20:30,Evening,App,General,1,50.5,No
+426,APT-000426,P00455,38,M,Insurance,4.7,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-05-31,2026-06-19,19,Friday,14:45,Afternoon,Website,General,2,55.0,No
+427,APT-000427,P00192,31,M,Panel,8.6,0,KS10,Rawang,Selangor,D010,Permanent,2026-05-18,2026-05-22,4,Friday,11:30,Morning,App,General,1,43.5,No
+428,APT-000428,P00409,31,F,Panel,10.2,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-02-09,2026-02-18,9,Wednesday,18:00,Evening,WhatsApp,General,2,57.0,No
+429,APT-000429,P00660,29,M,Insurance,1.6,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2025-12-29,2026-01-19,21,Monday,17:30,Evening,WhatsApp,General,2,49.5,Yes
+430,APT-000430,P00525,43,F,Panel,2.9,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-06-02,2026-06-10,8,Wednesday,20:00,Evening,App,Follow-up,2,36.0,No
+431,APT-000431,P00202,22,M,Panel,5.7,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-03-19,2026-04-04,16,Saturday,09:30,Morning,App,General,1,41.0,No
+432,APT-000432,P00241,60,F,Self-pay,7.2,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-02-14,2026-02-20,6,Friday,09:45,Morning,Website,Follow-up,0,52.0,No
+433,APT-000433,P00178,74,M,Insurance,3.0,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-26,2026-05-02,6,Saturday,19:45,Evening,Phone,Health screening,2,149.07,No
+434,APT-000434,P00486,38,F,Self-pay,6.9,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-03-14,2026-03-30,16,Monday,13:00,Afternoon,App,General,2,44.74,Yes
+435,APT-000435,P00029,48,F,Self-pay,6.0,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-06-14,2026-06-16,2,Tuesday,15:45,Afternoon,Phone,General,0,30.5,No
+436,APT-000436,P00421,23,F,Insurance,1.6,1,KS04,Klang,Selangor,D021,Permanent,2026-05-14,2026-06-02,19,Tuesday,12:45,Afternoon,Website,General,2,39.5,Yes
+437,APT-000437,P00646,37,M,Panel,8.7,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-03-05,2026-03-05,0,Thursday,15:45,Afternoon,WhatsApp,Health screening,0,149.53,No
+438,APT-000438,P00250,17,F,Insurance,9.8,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-02-22,2026-03-07,13,Saturday,09:15,Morning,Phone,Follow-up,1,43.5,No
+439,APT-000439,P00549,22,M,Panel,6.2,1,KS01,Petaling Jaya,Selangor,D001,Permanent,2025-12-26,2026-01-22,27,Thursday,15:45,Afternoon,Website,General,2,43.0,Yes
+440,APT-000440,P00341,58,M,Insurance,7.2,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-05-23,2026-05-30,7,Saturday,20:30,Evening,WhatsApp,Health screening,1,148.0,No
+441,APT-000441,P00637,10,F,Self-pay,6.3,1,KS10,Rawang,Selangor,D010,Permanent,2026-01-15,2026-01-23,8,Friday,12:30,Afternoon,App,General,1,46.0,No
+442,APT-000442,P00046,30,F,Self-pay,2.4,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-03-09,2026-03-09,0,Monday,18:30,Evening,App,General,0,50.0,Yes
+443,APT-000443,P00610,41,F,Panel,6.3,0,KS05,Kajang,Selangor,D005,Locum,2026-02-10,2026-02-19,9,Thursday,21:30,Evening,Phone,Health screening,1,161.0,No
+444,APT-000444,P00106,61,F,Self-pay,7.9,1,KS03,Subang Jaya,Selangor,D020,Permanent,2026-02-28,2026-03-13,13,Friday,16:30,Afternoon,Website,General,0,47.5,No
+445,APT-000445,P00284,16,M,Self-pay,17.5,1,KS10,Rawang,Selangor,D018,Permanent,2026-02-13,2026-02-24,11,Tuesday,14:00,Afternoon,Website,General,2,48.5,No
+446,APT-000446,P00081,47,F,Panel,5.4,0,KS10,Rawang,Selangor,D010,Permanent,2025-12-11,2026-01-29,49,Thursday,21:45,Evening,WhatsApp,General,2,39.5,No
+447,APT-000447,P00402,41,F,Panel,3.7,1,KS03,Subang Jaya,Selangor,D017,Permanent,2026-04-13,2026-04-27,14,Monday,14:30,Afternoon,WhatsApp,General,2,45.5,No
+448,APT-000448,P00044,45,F,Panel,2.5,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-05-07,2026-05-09,2,Saturday,21:30,Evening,App,General,0,44.5,No
+449,APT-000449,P00283,84,F,Self-pay,2.9,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-06-01,2026-06-01,0,Monday,20:30,Evening,Phone,Health screening,0,149.5,No
+450,APT-000450,P00560,41,M,Panel,7.2,0,KS10,Rawang,Selangor,D010,Permanent,2026-05-28,2026-05-29,1,Friday,11:45,Morning,WhatsApp,Follow-up,1,40.0,No
+451,APT-000451,P00229,33,M,Insurance,2.4,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-05-21,2026-05-22,1,Friday,13:00,Afternoon,WhatsApp,General,1,46.0,No
+452,APT-000452,P00171,34,M,Panel,12.3,1,KS03,Subang Jaya,Selangor,D013,Permanent,2026-02-16,2026-02-16,0,Monday,10:00,Morning,App,General,0,56.0,No
+453,APT-000453,P00361,38,M,Self-pay,3.8,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-03-20,2026-03-30,10,Monday,18:15,Evening,Phone,Follow-up,0,32.5,No
+454,APT-000454,P00029,38,F,Self-pay,6.0,0,KS05,Kajang,Selangor,D005,Locum,2026-02-22,2026-03-12,18,Thursday,19:15,Evening,App,General,1,44.5,Yes
+455,APT-000455,P00556,23,M,Self-pay,6.2,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-01-12,2026-02-03,22,Tuesday,10:45,Morning,App,General,2,42.5,No
+456,APT-000456,P00019,61,F,Insurance,3.8,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-04-14,2026-05-06,22,Wednesday,09:30,Morning,WhatsApp,General,2,40.5,No
+457,APT-000457,P00695,45,F,Insurance,5.8,0,KS04,Klang,Selangor,D021,Permanent,2026-02-22,2026-02-27,5,Friday,11:45,Morning,Phone,General,2,36.0,No
+458,APT-000458,P00440,40,F,Self-pay,7.6,0,KS04,Klang,Selangor,D004,Permanent,2026-05-22,2026-05-22,0,Friday,12:00,Afternoon,WhatsApp,Follow-up,0,34.96,No
+459,APT-000459,P00357,32,F,Self-pay,3.0,1,KS10,Rawang,Selangor,D018,Permanent,2026-02-05,2026-02-27,22,Friday,10:45,Morning,WhatsApp,General,1,39.5,No
+460,APT-000460,P00136,46,F,Panel,2.5,1,KS05,Kajang,Selangor,D011,Locum,2026-01-06,2026-01-10,4,Saturday,18:15,Evening,Phone,General,0,53.41,Yes
+461,APT-000461,P00405,27,F,Panel,2.8,2,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-01-28,2026-02-10,13,Tuesday,14:45,Afternoon,WhatsApp,Follow-up,0,30.5,No
+462,APT-000462,P00168,67,F,Self-pay,4.1,0,KS10,Rawang,Selangor,D012,Permanent,2026-03-15,2026-03-21,6,Saturday,19:30,Evening,Phone,Follow-up,1,31.0,No
+463,APT-000463,P00086,32,F,Insurance,3.1,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-02-16,2026-02-16,0,Monday,15:30,Afternoon,WhatsApp,General,0,40.0,No
+464,APT-000464,P00180,33,F,Panel,5.5,1,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-06-11,2026-06-23,12,Tuesday,19:30,Evening,Website,Follow-up,2,39.0,No
+465,APT-000465,P00167,48,F,Insurance,5.7,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-04-10,2026-04-11,1,Saturday,10:00,Morning,App,Health screening,1,152.0,No
+466,APT-000466,P00188,21,F,Self-pay,8.0,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-01-09,2026-01-17,8,Saturday,16:15,Afternoon,App,General,1,43.5,No
+467,APT-000467,P00013,23,M,Panel,4.3,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-02-05,2026-02-27,22,Friday,11:15,Morning,Phone,General,0,45.5,No
+468,APT-000468,P00591,41,F,Panel,5.6,1,KS03,Subang Jaya,Selangor,D020,Permanent,2026-04-30,2026-05-07,7,Thursday,09:45,Morning,Website,General,2,48.0,No
+469,APT-000469,P00347,33,M,Insurance,7.2,1,KS05,Kajang,Selangor,D005,Locum,2026-01-05,2026-01-19,14,Monday,19:15,Evening,Website,General,2,46.5,Yes
+470,APT-000470,P00381,37,M,Panel,14.8,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-05-25,2026-05-25,0,Monday,20:00,Evening,App,General,0,45.5,Yes
+471,APT-000471,P00656,37,F,Insurance,4.9,0,KS10,Rawang,Selangor,D012,Permanent,2026-05-23,2026-06-02,10,Tuesday,19:15,Evening,App,General,2,44.5,No
+472,APT-000472,P00031,51,M,Self-pay,2.5,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-05-28,2026-05-30,2,Saturday,14:00,Afternoon,App,General,1,59.5,No
+473,APT-000473,P00176,58,F,Panel,1.3,1,KS04,Klang,Selangor,D021,Permanent,2026-05-17,2026-05-28,11,Thursday,11:15,Morning,App,Health screening,0,156.5,No
+474,APT-000474,P00644,21,F,Insurance,11.0,2,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-04-28,2026-05-06,8,Wednesday,11:30,Morning,WhatsApp,General,2,40.0,Yes
+475,APT-000475,P00531,25,M,Panel,5.2,4,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-03-02,2026-03-05,3,Thursday,17:15,Evening,App,General,0,46.5,Yes
+476,APT-000476,P00597,23,M,Self-pay,2.0,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-03-18,2026-04-01,14,Wednesday,19:15,Evening,Website,General,0,49.0,No
+477,APT-000477,P00342,55,F,Insurance,12.0,0,KS04,Klang,Selangor,D004,Permanent,2026-02-22,2026-02-27,5,Friday,12:30,Afternoon,App,General,2,41.0,No
+478,APT-000478,P00500,36,M,Insurance,5.2,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-03-04,2026-03-04,0,Wednesday,09:30,Morning,App,General,0,36.5,No
+479,APT-000479,P00288,49,M,Self-pay,7.7,1,KS10,Rawang,Selangor,D018,Permanent,2026-05-21,2026-05-21,0,Thursday,10:30,Morning,Website,Follow-up,0,32.5,No
+480,APT-000480,P00073,42,M,Panel,13.0,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2025-12-17,2026-01-10,24,Saturday,16:45,Afternoon,Phone,General,1,35.0,No
+481,APT-000481,P00653,49,F,Self-pay,12.6,2,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-04-08,2026-04-15,7,Wednesday,15:00,Afternoon,App,Follow-up,1,36.5,No
+482,APT-000482,P00081,47,F,Panel,5.4,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-01-10,2026-01-12,2,Monday,09:15,Morning,App,General,0,42.5,Yes
+483,APT-000483,P00011,16,F,Insurance,7.2,1,KS03,Subang Jaya,Selangor,D003,Permanent,2026-02-05,2026-02-20,15,Friday,13:30,Afternoon,App,General,1,53.0,No
+484,APT-000484,P00584,20,M,Self-pay,6.2,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-05-19,2026-05-19,0,Tuesday,15:00,Afternoon,App,Follow-up,0,35.1,No
+485,APT-000485,P00449,34,F,Insurance,4.4,1,KS04,Klang,Selangor,D021,Permanent,2026-04-29,2026-04-30,1,Thursday,15:15,Afternoon,Website,General,0,45.0,Yes
+486,APT-000486,P00252,24,F,Panel,4.1,1,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-03-15,2026-04-08,24,Wednesday,19:00,Evening,App,Follow-up,1,31.0,No
+487,APT-000487,P00178,74,M,Insurance,3.0,0,KS04,Klang,Selangor,D021,Permanent,2026-05-14,2026-05-20,6,Wednesday,16:30,Afternoon,Phone,Health screening,1,146.0,No
+488,APT-000488,P00512,25,F,Panel,6.5,1,KS03,Subang Jaya,Selangor,D013,Permanent,2026-01-14,2026-02-16,33,Monday,17:00,Evening,Phone,General,0,39.0,No
+489,APT-000489,P00114,36,F,Insurance,11.8,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-01-19,2026-01-19,0,Monday,20:00,Evening,App,General,0,44.9,No
+490,APT-000490,P00122,25,M,Panel,17.1,1,KS01,Petaling Jaya,Selangor,D001,Permanent,2025-12-23,2026-01-15,23,Thursday,18:30,Evening,Phone,General,1,50.5,No
+491,APT-000491,P00543,11,F,Insurance,4.5,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-03-15,2026-03-23,8,Monday,17:00,Evening,WhatsApp,General,0,41.5,No
+492,APT-000492,P00197,17,M,Self-pay,4.8,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-03-17,2026-03-19,2,Thursday,11:15,Morning,WhatsApp,General,1,50.5,No
+493,APT-000493,P00224,58,M,Panel,6.7,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-06-11,2026-06-11,0,Thursday,16:45,Afternoon,WhatsApp,Health screening,0,147.5,No
+494,APT-000494,P00658,68,M,Insurance,4.7,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-01-13,2026-01-13,0,Tuesday,21:30,Evening,WhatsApp,General,0,46.0,No
+495,APT-000495,P00087,50,M,Panel,5.9,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-04-24,2026-04-24,0,Friday,20:30,Evening,Website,Follow-up,0,33.0,No
+496,APT-000496,P00618,27,M,Panel,2.9,0,KS04,Klang,Selangor,D004,Permanent,2026-02-01,2026-02-09,8,Monday,18:00,Evening,App,General,2,34.0,No
+497,APT-000497,P00415,34,F,Panel,8.2,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-02-23,2026-02-25,2,Wednesday,19:00,Evening,WhatsApp,General,1,45.5,No
+498,APT-000498,P00170,36,M,Panel,5.2,1,KS03,Subang Jaya,Selangor,D020,Permanent,2026-02-11,2026-02-12,1,Thursday,11:15,Morning,Phone,General,1,45.5,No
+499,APT-000499,P00342,50,F,Insurance,12.0,0,KS10,Rawang,Selangor,D012,Permanent,2026-01-10,2026-01-12,2,Monday,20:15,Evening,Phone,General,0,45.5,Yes
+500,APT-000500,P00009,21,M,Self-pay,1.2,2,KS03,Subang Jaya,Selangor,D022,Permanent,2026-03-18,2026-03-25,7,Wednesday,20:45,Evening,WhatsApp,General,1,45.0,No
+501,APT-000501,P00567,41,M,Insurance,8.9,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-06-13,2026-06-18,5,Thursday,19:45,Evening,Phone,General,0,41.0,No
+502,APT-000502,P00384,36,F,Self-pay,19.2,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-01-05,2026-02-10,36,Tuesday,14:00,Afternoon,App,General,2,54.5,No
+503,APT-000503,P00505,64,M,Insurance,7.6,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-01-20,2026-02-07,18,Saturday,17:30,Evening,WhatsApp,Follow-up,2,38.5,No
+504,APT-000504,P00154,59,F,Self-pay,5.9,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-04-03,2026-04-03,0,Friday,12:30,Afternoon,Phone,Health screening,0,147.5,No
+505,APT-000505,P00528,56,F,Panel,19.4,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-03-29,2026-04-02,4,Thursday,20:00,Evening,WhatsApp,Health screening,2,147.0,No
+506,APT-000506,P00325,42,F,Self-pay,3.2,0,KS10,Rawang,Selangor,D018,Permanent,2026-04-14,2026-04-16,2,Thursday,11:00,Morning,Website,General,0,44.5,Yes
+507,APT-000507,P00140,48,F,Self-pay,5.4,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-06-08,2026-06-09,1,Tuesday,11:45,Morning,Phone,General,0,50.5,No
+508,APT-000508,P00269,22,F,Panel,5.9,0,KS10,Rawang,Selangor,D012,Permanent,2026-02-26,2026-03-04,6,Wednesday,16:15,Afternoon,App,General,1,43.5,No
+509,APT-000509,P00426,76,F,Self-pay,9.9,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-05-13,2026-05-13,0,Wednesday,17:15,Evening,Phone,Health screening,0,147.0,No
+510,APT-000510,P00112,39,M,Self-pay,20.2,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-05-09,2026-05-23,14,Saturday,14:00,Afternoon,App,Follow-up,2,45.5,No
+511,APT-000511,P00482,41,M,Panel,3.9,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-03-09,2026-03-09,0,Monday,16:30,Afternoon,WhatsApp,General,0,49.0,No
+512,APT-000512,P00635,40,M,Panel,8.9,1,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-06-15,2026-06-15,0,Monday,11:00,Morning,WhatsApp,General,0,40.0,Yes
+513,APT-000513,P00418,42,F,Self-pay,3.8,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-06-14,2026-06-18,4,Thursday,09:30,Morning,Website,General,1,49.0,No
+514,APT-000514,P00539,67,M,Panel,4.9,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-01-17,2026-01-29,12,Thursday,17:45,Evening,Phone,Follow-up,1,37.5,No
+515,APT-000515,P00328,52,F,Self-pay,3.9,1,KS05,Kajang,Selangor,D011,Locum,2026-02-14,2026-03-07,21,Saturday,12:30,Afternoon,Website,General,1,55.5,No
+516,APT-000516,P00505,64,M,Insurance,7.6,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-03-19,2026-03-24,5,Tuesday,09:15,Morning,Phone,Follow-up,2,30.5,No
+517,APT-000517,P00043,36,M,Insurance,5.2,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-05-10,2026-05-12,2,Tuesday,15:15,Afternoon,App,General,1,51.5,No
+518,APT-000518,P00331,42,F,Self-pay,14.1,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-05-09,2026-05-22,13,Friday,20:15,Evening,Phone,General,1,51.0,No
+519,APT-000519,P00340,52,M,Self-pay,1.6,0,KS04,Klang,Selangor,D004,Permanent,2026-02-19,2026-03-13,22,Friday,21:45,Evening,Phone,General,0,41.0,Yes
+520,APT-000520,P00458,34,M,Insurance,6.6,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-04,2026-04-06,2,Monday,21:45,Evening,WhatsApp,General,1,50.0,No
+521,APT-000521,P00231,25,M,Panel,4.0,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-06-16,2026-06-18,2,Thursday,16:00,Afternoon,App,General,1,36.5,No
+522,APT-000522,P00335,39,M,Panel,3.0,1,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-05-09,2026-05-20,11,Wednesday,21:45,Evening,App,Follow-up,0,28.5,No
+523,APT-000523,P00091,29,F,Panel,12.9,1,KS04,Klang,Selangor,D004,Permanent,2026-02-23,2026-02-23,0,Monday,17:00,Evening,App,General,0,41.5,Yes
+524,APT-000524,P00454,41,M,Panel,11.8,2,KS03,Subang Jaya,Selangor,D015,Locum,2026-05-27,2026-05-27,0,Wednesday,18:15,Evening,App,General,0,55.5,No
+525,APT-000525,P00553,35,F,Insurance,6.7,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-02-26,2026-03-04,6,Wednesday,18:45,Evening,App,General,1,51.0,No
+526,APT-000526,P00275,45,M,Insurance,12.2,1,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-01-14,2026-01-19,5,Monday,17:00,Evening,App,Health screening,1,153.5,Yes
+527,APT-000527,P00334,30,F,Self-pay,17.3,1,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-05-07,2026-05-13,6,Wednesday,13:45,Afternoon,WhatsApp,General,0,36.0,Yes
+528,APT-000528,P00338,44,M,Insurance,3.7,0,KS04,Klang,Selangor,D004,Permanent,2026-04-30,2026-05-01,1,Friday,21:30,Evening,App,General,1,47.0,No
+529,APT-000529,P00156,42,M,Panel,5.8,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-03-16,2026-03-25,9,Wednesday,10:00,Morning,Phone,General,0,45.5,Yes
+530,APT-000530,P00680,44,F,Self-pay,19.2,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-03-13,2026-03-24,11,Tuesday,18:00,Evening,App,General,1,42.0,No
+531,APT-000531,P00660,29,M,Insurance,1.6,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-05-15,2026-05-19,4,Tuesday,09:30,Morning,App,General,1,47.0,Yes
+532,APT-000532,P00004,36,F,Panel,5.5,1,KS04,Klang,Selangor,D021,Permanent,2026-03-29,2026-04-07,9,Tuesday,10:30,Morning,App,General,1,39.5,No
+533,APT-000533,P00453,40,F,Panel,25.7,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-04-08,2026-04-16,8,Thursday,21:15,Evening,App,General,1,50.0,No
+534,APT-000534,P00630,21,F,Self-pay,7.0,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-22,2026-03-10,16,Tuesday,13:00,Afternoon,Phone,General,1,51.0,No
+535,APT-000535,P00595,60,F,Insurance,4.2,0,KS05,Kajang,Selangor,D005,Locum,2026-05-06,2026-05-06,0,Wednesday,20:00,Evening,WhatsApp,Follow-up,0,43.98,No
+536,APT-000536,P00212,41,F,Self-pay,6.1,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-05-15,2026-05-19,4,Tuesday,10:15,Morning,App,General,0,45.5,No
+537,APT-000537,P00148,11,F,Insurance,7.0,2,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-02-09,2026-03-31,50,Tuesday,09:00,Morning,WhatsApp,Follow-up,1,36.5,No
+538,APT-000538,P00466,56,F,Panel,6.5,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-04-07,2026-05-05,28,Tuesday,14:30,Afternoon,Phone,General,0,52.5,Yes
+539,APT-000539,P00410,36,F,Panel,4.6,2,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-01-22,2026-02-03,12,Tuesday,16:00,Afternoon,WhatsApp,General,2,44.5,No
+540,APT-000540,P00533,48,M,Insurance,3.4,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-05-08,2026-06-22,45,Monday,09:00,Morning,WhatsApp,General,2,48.5,No
+541,APT-000541,P00227,36,F,Self-pay,6.4,3,KS03,Subang Jaya,Selangor,D017,Permanent,2026-03-19,2026-03-20,1,Friday,17:30,Evening,Phone,General,0,44.0,No
+542,APT-000542,P00421,23,F,Insurance,1.6,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-01-12,2026-01-27,15,Tuesday,12:30,Afternoon,WhatsApp,General,1,39.0,No
+543,APT-000543,P00662,26,M,Panel,6.3,1,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-06-10,2026-06-16,6,Tuesday,10:30,Morning,App,General,0,45.03,No
+544,APT-000544,P00576,53,M,Panel,9.8,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-01-26,2026-01-28,2,Wednesday,18:15,Evening,WhatsApp,General,0,51.5,No
+545,APT-000545,P00064,55,F,Panel,1.9,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-04-04,2026-04-18,14,Saturday,11:15,Morning,WhatsApp,Follow-up,1,35.5,No
+546,APT-000546,P00431,50,M,Panel,3.1,0,KS05,Kajang,Selangor,D005,Locum,2026-01-16,2026-01-21,5,Wednesday,20:00,Evening,WhatsApp,General,1,53.78,No
+547,APT-000547,P00233,45,F,Self-pay,9.9,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-02-10,2026-02-19,9,Thursday,18:45,Evening,WhatsApp,Follow-up,2,34.0,No
+548,APT-000548,P00219,46,F,Insurance,3.3,2,KS02,Shah Alam,Selangor,D002,Permanent,2026-06-09,2026-06-16,7,Tuesday,17:30,Evening,Phone,Follow-up,1,31.0,No
+549,APT-000549,P00383,50,F,Insurance,5.1,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-01-08,2026-01-29,21,Thursday,16:15,Afternoon,Phone,Follow-up,2,33.0,No
+550,APT-000550,P00548,34,M,Panel,10.6,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-04-02,2026-04-15,13,Wednesday,19:30,Evening,App,General,2,43.5,No
+551,APT-000551,P00279,32,F,Panel,3.4,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-04-24,2026-05-01,7,Friday,11:15,Morning,App,General,2,45.0,No
+552,APT-000552,P00095,34,F,Panel,4.7,2,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-04-27,2026-05-25,28,Monday,16:30,Afternoon,WhatsApp,General,1,37.5,No
+553,APT-000553,P00413,37,F,Panel,2.7,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-06-19,2026-06-20,1,Saturday,16:30,Afternoon,App,Follow-up,1,43.0,No
+554,APT-000554,P00275,49,M,Insurance,12.2,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-05-03,2026-05-19,16,Tuesday,14:45,Afternoon,App,Health screening,1,152.0,No
+555,APT-000555,P00500,36,M,Insurance,5.2,0,KS05,Kajang,Selangor,D005,Locum,2026-06-01,2026-06-24,23,Wednesday,13:30,Afternoon,Phone,General,0,57.5,No
+556,APT-000556,P00026,56,F,Panel,2.9,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-04-03,2026-04-18,15,Saturday,20:00,Evening,App,General,1,44.15,No
+557,APT-000557,P00108,43,F,Self-pay,10.2,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-06-07,2026-06-08,1,Monday,16:30,Afternoon,Website,General,0,49.0,No
+558,APT-000558,P00041,47,F,Panel,6.4,0,KS05,Kajang,Selangor,D011,Locum,2025-12-31,2026-01-12,12,Monday,18:00,Evening,Phone,General,2,51.0,No
+559,APT-000559,P00628,23,F,Self-pay,2.4,1,KS10,Rawang,Selangor,D010,Permanent,2026-05-11,2026-06-10,30,Wednesday,10:15,Morning,WhatsApp,Follow-up,1,34.5,No
+560,APT-000560,P00558,57,M,Panel,3.3,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-03-23,2026-03-23,0,Monday,16:30,Afternoon,Phone,Health screening,0,152.0,No
+561,APT-000561,P00481,37,M,Panel,6.5,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-04-12,2026-04-15,3,Wednesday,18:30,Evening,Website,Follow-up,1,27.5,No
+562,APT-000562,P00361,38,M,Self-pay,3.8,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-04-06,2026-04-07,1,Tuesday,11:30,Morning,App,General,0,38.0,No
+563,APT-000563,P00134,51,M,Panel,23.6,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-16,2026-03-02,14,Monday,16:00,Afternoon,Website,General,2,40.0,No
+564,APT-000564,P00204,22,F,Panel,5.8,0,KS04,Klang,Selangor,D004,Permanent,2026-02-23,2026-03-11,16,Wednesday,14:00,Afternoon,App,Health screening,0,151.5,No
+565,APT-000565,P00297,34,F,Self-pay,9.0,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-01-26,2026-02-02,7,Monday,17:00,Evening,Phone,Health screening,2,148.5,No
+566,APT-000566,P00018,36,F,Self-pay,12.0,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-02-13,2026-02-17,4,Tuesday,12:45,Afternoon,WhatsApp,Follow-up,1,35.27,No
+567,APT-000567,P00306,61,F,Insurance,2.7,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-03-02,2026-03-17,15,Tuesday,14:30,Afternoon,WhatsApp,General,1,56.0,No
+568,APT-000568,P00582,26,F,Panel,4.4,1,KS10,Rawang,Selangor,D010,Permanent,2026-04-10,2026-05-01,21,Friday,09:30,Morning,WhatsApp,Follow-up,0,26.5,Yes
+569,APT-000569,P00380,70,F,Self-pay,3.4,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-06-09,2026-06-16,7,Tuesday,20:15,Evening,WhatsApp,General,1,46.5,No
+570,APT-000570,P00618,39,M,Panel,2.9,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-03-10,2026-03-21,11,Saturday,17:30,Evening,App,Follow-up,1,35.5,No
+571,APT-000571,P00271,31,F,Self-pay,2.6,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-03-12,2026-03-12,0,Thursday,13:15,Afternoon,App,General,0,50.0,Yes
+572,APT-000572,P00201,65,F,Self-pay,3.0,0,KS04,Klang,Selangor,D004,Permanent,2026-01-08,2026-01-08,0,Thursday,12:45,Afternoon,Phone,Health screening,0,150.5,No
+573,APT-000573,P00317,41,M,Panel,7.7,0,KS10,Rawang,Selangor,D012,Permanent,2026-01-28,2026-02-02,5,Monday,11:45,Morning,WhatsApp,General,2,43.5,No
+574,APT-000574,P00308,30,M,Panel,3.8,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-04-13,2026-04-18,5,Saturday,12:00,Afternoon,Phone,Follow-up,2,27.0,No
+575,APT-000575,P00402,41,F,Panel,3.7,1,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-02-11,2026-02-19,8,Thursday,11:45,Morning,WhatsApp,General,2,43.0,No
+576,APT-000576,P00354,49,M,Insurance,4.1,3,KS03,Subang Jaya,Selangor,D017,Permanent,2026-04-06,2026-04-09,3,Thursday,19:15,Evening,App,Health screening,2,146.0,No
+577,APT-000577,P00528,51,F,Panel,19.4,0,KS04,Klang,Selangor,D004,Permanent,2026-01-26,2026-02-12,17,Thursday,20:45,Evening,Phone,Follow-up,0,30.5,No
+578,APT-000578,P00601,29,M,Self-pay,2.9,0,KS10,Rawang,Selangor,D010,Permanent,2026-02-26,2026-03-11,13,Wednesday,09:45,Morning,Website,Follow-up,0,34.5,No
+579,APT-000579,P00299,20,F,Self-pay,6.5,2,KS03,Subang Jaya,Selangor,D015,Locum,2025-12-25,2026-01-17,23,Saturday,13:00,Afternoon,Website,Follow-up,0,49.0,No
+580,APT-000580,P00374,55,M,Insurance,9.4,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-02-14,2026-02-23,9,Monday,19:45,Evening,Website,General,0,35.0,No
+581,APT-000581,P00436,35,M,Panel,6.2,0,KS10,Rawang,Selangor,D010,Permanent,2026-03-07,2026-03-09,2,Monday,09:45,Morning,WhatsApp,General,0,43.5,No
+582,APT-000582,P00687,18,M,Insurance,7.4,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-02-25,2026-02-25,0,Wednesday,19:00,Evening,App,General,0,53.5,No
+583,APT-000583,P00649,44,F,Insurance,11.0,1,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-02-01,2026-02-02,1,Monday,21:45,Evening,App,Follow-up,1,34.0,No
+584,APT-000584,P00691,65,F,Self-pay,8.2,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-01-13,2026-01-13,0,Tuesday,09:45,Morning,App,General,0,43.0,No
+585,APT-000585,P00342,55,F,Insurance,12.0,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-06-09,2026-06-09,0,Tuesday,10:15,Morning,WhatsApp,Health screening,0,146.0,No
+586,APT-000586,P00568,31,F,Self-pay,4.2,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-06-10,2026-06-18,8,Thursday,10:30,Morning,WhatsApp,General,1,52.5,No
+587,APT-000587,P00504,84,M,Self-pay,5.0,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-04-01,2026-04-10,9,Friday,12:45,Afternoon,Phone,General,0,49.0,Yes
+588,APT-000588,P00589,40,M,Panel,5.8,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-02-12,2026-03-12,28,Thursday,16:15,Afternoon,Phone,Follow-up,2,39.0,No
+589,APT-000589,P00288,49,M,Self-pay,7.7,1,KS03,Subang Jaya,Selangor,D023,Permanent,2026-06-04,2026-06-22,18,Monday,11:15,Morning,App,General,1,40.5,No
+590,APT-000590,P00328,52,F,Self-pay,3.9,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-04-04,2026-04-22,18,Wednesday,19:00,Evening,App,Follow-up,0,33.0,No
+591,APT-000591,P00241,50,F,Self-pay,7.2,0,KS05,Kajang,Selangor,D011,Locum,2026-06-12,2026-06-22,10,Monday,13:30,Afternoon,Phone,General,0,55.0,No
+592,APT-000592,P00567,52,M,Insurance,8.9,0,KS05,Kajang,Selangor,D005,Locum,2026-02-26,2026-02-27,1,Friday,21:45,Evening,Phone,General,0,56.0,No
+593,APT-000593,P00306,46,F,Insurance,2.7,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-04-29,2026-05-07,8,Thursday,10:00,Morning,Phone,General,2,50.5,No
+594,APT-000594,P00631,21,M,Self-pay,3.2,3,KS04,Klang,Selangor,D021,Permanent,2026-02-16,2026-02-20,4,Friday,16:00,Afternoon,Phone,General,0,43.0,No
+595,APT-000595,P00269,46,F,Panel,5.9,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-06-02,2026-06-03,1,Wednesday,16:00,Afternoon,Phone,General,0,48.0,No
+596,APT-000596,P00275,49,M,Insurance,12.2,1,KS10,Rawang,Selangor,D012,Permanent,2026-05-10,2026-05-14,4,Thursday,12:45,Afternoon,App,Health screening,1,146.5,No
+597,APT-000597,P00051,26,M,Panel,2.0,0,KS05,Kajang,Selangor,D005,Locum,2026-01-18,2026-01-19,1,Monday,12:45,Afternoon,App,General,1,49.5,No
+598,APT-000598,P00294,84,M,Insurance,3.9,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-04-25,2026-05-01,6,Friday,21:00,Evening,Phone,General,2,44.5,No
+599,APT-000599,P00362,46,F,Insurance,3.3,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-02-27,2026-03-11,12,Wednesday,14:30,Afternoon,Website,General,0,39.5,No
+600,APT-000600,P00570,40,F,Panel,5.5,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-20,2026-04-29,9,Wednesday,11:15,Morning,WhatsApp,Follow-up,1,31.5,No
+601,APT-000601,P00178,74,M,Insurance,3.0,0,KS05,Kajang,Selangor,D005,Locum,2026-03-22,2026-04-25,34,Saturday,12:45,Afternoon,WhatsApp,General,2,56.5,No
+602,APT-000602,P00296,41,M,Self-pay,8.6,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-05-19,2026-05-27,8,Wednesday,17:00,Evening,WhatsApp,General,2,40.0,No
+603,APT-000603,P00159,51,M,Self-pay,5.2,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-01-21,2026-02-09,19,Monday,17:30,Evening,WhatsApp,General,0,44.52,No
+604,APT-000604,P00183,49,F,Self-pay,6.7,1,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-04-07,2026-04-24,17,Friday,15:30,Afternoon,WhatsApp,General,1,32.5,No
+605,APT-000605,P00443,50,M,Panel,4.4,1,KS02,Shah Alam,Selangor,D002,Permanent,2026-02-01,2026-02-24,23,Tuesday,20:30,Evening,Website,Health screening,2,155.0,No
+606,APT-000606,P00336,62,M,Self-pay,11.3,0,KS03,Subang Jaya,Selangor,D022,Permanent,2025-12-18,2026-01-08,21,Thursday,12:00,Afternoon,Phone,General,1,44.0,No
+607,APT-000607,P00095,34,F,Panel,4.7,2,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-03-16,2026-03-16,0,Monday,09:45,Morning,Phone,General,0,43.0,No
+608,APT-000608,P00386,48,F,Self-pay,8.8,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-06-09,2026-06-25,16,Thursday,13:30,Afternoon,Phone,General,2,44.84,No
+609,APT-000609,P00107,34,F,Insurance,11.9,0,KS10,Rawang,Selangor,D012,Permanent,2026-02-24,2026-02-26,2,Thursday,19:45,Evening,App,General,1,45.0,No
+610,APT-000610,P00660,29,M,Insurance,1.6,1,KS04,Klang,Selangor,D021,Permanent,2026-02-21,2026-03-02,9,Monday,11:00,Morning,WhatsApp,Follow-up,1,32.5,No
+611,APT-000611,P00020,41,M,Self-pay,7.2,1,KS10,Rawang,Selangor,D010,Permanent,2026-05-09,2026-05-11,2,Monday,15:30,Afternoon,Phone,Follow-up,1,32.5,No
+612,APT-000612,P00297,34,F,Self-pay,9.0,1,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-04-23,2026-04-27,4,Monday,21:30,Evening,WhatsApp,General,1,47.5,Yes
+613,APT-000613,P00377,32,F,Insurance,5.6,0,KS04,Klang,Selangor,D021,Permanent,2026-06-13,2026-06-17,4,Wednesday,09:00,Morning,Phone,General,0,43.0,No
+614,APT-000614,P00377,32,F,Insurance,5.6,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-03-22,2026-03-24,2,Tuesday,16:15,Afternoon,Phone,General,0,34.0,No
+615,APT-000615,P00031,51,M,Self-pay,2.5,1,KS03,Subang Jaya,Selangor,D015,Locum,2026-04-19,2026-05-01,12,Friday,12:45,Afternoon,WhatsApp,General,1,61.0,No
+616,APT-000616,P00629,27,M,Panel,2.2,2,KS04,Klang,Selangor,D021,Permanent,2026-03-11,2026-03-16,5,Monday,14:00,Afternoon,Phone,General,1,44.0,No
+617,APT-000617,P00230,60,M,Insurance,25.5,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-05-03,2026-05-11,8,Monday,09:45,Morning,Website,Follow-up,0,33.5,No
+618,APT-000618,P00452,59,M,Self-pay,9.3,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-16,2026-04-24,8,Friday,10:15,Morning,Phone,Follow-up,0,33.5,No
+619,APT-000619,P00061,40,F,Insurance,6.2,1,KS05,Kajang,Selangor,D011,Locum,2026-05-11,2026-05-13,2,Wednesday,12:45,Afternoon,Website,General,1,55.5,No
+620,APT-000620,P00072,33,F,Insurance,4.0,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-01-20,2026-01-22,2,Thursday,10:15,Morning,App,General,1,43.5,No
+621,APT-000621,P00276,69,F,Self-pay,2.2,0,KS10,Rawang,Selangor,D012,Permanent,2026-03-30,2026-04-01,2,Wednesday,12:45,Afternoon,App,General,1,44.39,No
+622,APT-000622,P00347,33,M,Insurance,7.2,1,KS03,Subang Jaya,Selangor,D023,Permanent,2026-04-18,2026-04-27,9,Monday,15:45,Afternoon,App,General,0,44.5,No
+623,APT-000623,P00253,23,F,Insurance,3.6,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-06-03,2026-06-08,5,Monday,21:00,Evening,WhatsApp,General,1,38.0,No
+624,APT-000624,P00678,71,F,Self-pay,2.3,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-14,2026-04-17,3,Friday,21:15,Evening,Phone,General,0,40.5,Yes
+625,APT-000625,P00516,51,M,Insurance,30.9,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-06-13,2026-06-13,0,Saturday,13:45,Afternoon,Phone,General,0,50.5,No
+626,APT-000626,P00291,41,M,Panel,10.9,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-06-11,2026-06-16,5,Tuesday,19:45,Evening,Phone,General,2,56.5,No
+627,APT-000627,P00650,23,M,Panel,7.6,3,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-01-12,2026-01-12,0,Monday,12:30,Afternoon,App,Follow-up,0,42.0,No
+628,APT-000628,P00084,22,M,Insurance,11.2,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-02-08,2026-02-24,16,Tuesday,16:45,Afternoon,App,General,1,45.4,No
+629,APT-000629,P00384,36,F,Self-pay,19.2,0,KS04,Klang,Selangor,D004,Permanent,2026-03-11,2026-04-01,21,Wednesday,11:00,Morning,App,Follow-up,0,34.0,Yes
+630,APT-000630,P00484,50,M,Insurance,7.0,2,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-03-04,2026-03-27,23,Friday,09:00,Morning,WhatsApp,Health screening,1,157.0,No
+631,APT-000631,P00088,40,F,Panel,5.8,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-05-31,2026-06-13,13,Saturday,16:15,Afternoon,WhatsApp,General,1,44.69,No
+632,APT-000632,P00663,42,M,Panel,5.1,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-02-07,2026-02-14,7,Saturday,10:30,Morning,WhatsApp,Health screening,2,153.5,No
+633,APT-000633,P00176,58,F,Panel,1.3,1,KS03,Subang Jaya,Selangor,D023,Permanent,2026-02-26,2026-03-04,6,Wednesday,09:15,Morning,Phone,Follow-up,0,32.0,No
+634,APT-000634,P00008,29,F,Panel,11.2,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-05-31,2026-06-01,1,Monday,21:30,Evening,WhatsApp,General,1,51.0,Yes
+635,APT-000635,P00115,27,M,Self-pay,15.7,0,KS10,Rawang,Selangor,D012,Permanent,2026-06-25,2026-06-26,1,Friday,09:30,Morning,App,Follow-up,1,36.0,No
+636,APT-000636,P00651,43,F,Self-pay,5.3,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-03-24,2026-04-10,17,Friday,10:00,Morning,Website,Follow-up,2,32.0,No
+637,APT-000637,P00387,34,M,Panel,5.1,1,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-05-20,2026-05-26,6,Tuesday,19:30,Evening,WhatsApp,General,1,54.5,No
+638,APT-000638,P00329,30,M,Self-pay,5.0,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-27,2026-05-04,7,Monday,11:45,Morning,WhatsApp,General,1,53.5,No
+639,APT-000639,P00551,42,M,Insurance,4.2,2,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-06-16,2026-06-26,10,Friday,21:45,Evening,Phone,General,0,47.0,No
+640,APT-000640,P00115,27,M,Self-pay,15.7,0,KS04,Klang,Selangor,D021,Permanent,2026-03-24,2026-03-27,3,Friday,12:15,Afternoon,App,General,1,51.5,Yes
+641,APT-000641,P00151,42,M,Panel,3.7,0,KS05,Kajang,Selangor,D011,Locum,2026-02-27,2026-03-25,26,Wednesday,20:45,Evening,Website,Follow-up,1,51.5,No
+642,APT-000642,P00465,34,M,Insurance,25.4,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-03-09,2026-03-16,7,Monday,21:00,Evening,WhatsApp,General,2,52.0,No
+643,APT-000643,P00097,35,F,Panel,8.4,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-04-15,2026-05-05,20,Tuesday,14:00,Afternoon,App,Follow-up,1,27.5,Yes
+644,APT-000644,P00318,28,F,Panel,4.9,2,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-04-10,2026-04-16,6,Thursday,15:15,Afternoon,App,Follow-up,0,29.5,No
+645,APT-000645,P00502,36,F,Panel,4.4,0,KS05,Kajang,Selangor,D011,Locum,2026-05-18,2026-05-20,2,Wednesday,21:45,Evening,WhatsApp,Follow-up,1,44.5,No
+646,APT-000646,P00687,18,M,Insurance,7.4,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-01-07,2026-01-13,6,Tuesday,16:15,Afternoon,WhatsApp,General,1,47.5,No
+647,APT-000647,P00640,26,F,Insurance,9.7,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-06-13,2026-06-20,7,Saturday,09:30,Morning,App,Health screening,0,153.0,No
+648,APT-000648,P00278,40,M,Self-pay,7.7,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-01-17,2026-01-21,4,Wednesday,20:15,Evening,App,General,2,40.5,No
+649,APT-000649,P00010,32,M,Self-pay,7.7,1,KS04,Klang,Selangor,D021,Permanent,2026-05-20,2026-05-22,2,Friday,10:45,Morning,WhatsApp,Follow-up,1,31.5,No
+650,APT-000650,P00315,74,F,Self-pay,8.8,0,KS10,Rawang,Selangor,D018,Permanent,2026-05-13,2026-05-19,6,Tuesday,16:15,Afternoon,App,General,2,46.5,No
+651,APT-000651,P00191,21,F,Insurance,5.3,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-03-17,2026-04-15,29,Wednesday,10:15,Morning,App,Follow-up,2,39.0,No
+652,APT-000652,P00498,54,F,Insurance,5.5,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-02-04,2026-02-06,2,Friday,20:15,Evening,Phone,Health screening,0,147.0,No
+653,APT-000653,P00552,49,M,Insurance,5.0,0,KS10,Rawang,Selangor,D012,Permanent,2026-02-18,2026-02-23,5,Monday,12:15,Afternoon,Phone,General,1,50.5,Yes
+654,APT-000654,P00684,40,M,Panel,9.5,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-05-17,2026-05-26,9,Tuesday,11:00,Morning,Phone,General,1,48.5,No
+655,APT-000655,P00146,42,M,Insurance,4.1,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-01-29,2026-02-16,18,Monday,15:00,Afternoon,App,Follow-up,0,32.0,No
+656,APT-000656,P00673,49,F,Self-pay,6.9,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-03-29,2026-04-09,11,Thursday,16:15,Afternoon,Phone,General,0,39.0,No
+657,APT-000657,P00179,24,M,Self-pay,10.1,0,KS04,Klang,Selangor,D021,Permanent,2026-02-12,2026-03-18,34,Wednesday,20:45,Evening,WhatsApp,Follow-up,1,37.0,No
+658,APT-000658,P00622,36,M,Insurance,5.4,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-03-24,2026-04-01,8,Wednesday,09:45,Morning,Phone,General,0,53.5,Yes
+659,APT-000659,P00130,35,F,Self-pay,10.4,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-03-23,2026-03-26,3,Thursday,13:00,Afternoon,App,General,2,38.0,No
+660,APT-000660,P00350,21,F,Insurance,7.5,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-02-19,2026-03-07,16,Saturday,15:15,Afternoon,App,General,2,40.5,No
+661,APT-000661,P00262,26,M,Panel,9.5,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-05-26,2026-05-27,1,Wednesday,11:00,Morning,App,General,1,46.5,No
+662,APT-000662,P00498,54,F,Insurance,5.5,0,KS10,Rawang,Selangor,D018,Permanent,2026-05-16,2026-05-22,6,Friday,11:15,Morning,Phone,Health screening,0,153.5,No
+663,APT-000663,P00134,51,M,Panel,23.6,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-27,2026-02-27,0,Friday,15:30,Afternoon,Website,Follow-up,0,27.0,Yes
+664,APT-000664,P00658,68,M,Insurance,4.7,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-02-20,2026-02-24,4,Tuesday,19:15,Evening,Phone,General,0,49.0,No
+665,APT-000665,P00589,40,M,Panel,5.8,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-01-25,2026-01-26,1,Monday,16:15,Afternoon,Website,Follow-up,1,36.5,No
+666,APT-000666,P00341,58,M,Insurance,7.2,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-02-07,2026-02-18,11,Wednesday,09:15,Morning,Phone,Follow-up,0,36.0,No
+667,APT-000667,P00019,61,F,Insurance,3.8,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-03-07,2026-03-07,0,Saturday,11:00,Morning,WhatsApp,General,0,40.0,No
+668,APT-000668,P00114,36,F,Insurance,11.8,0,KS04,Klang,Selangor,D021,Permanent,2026-01-27,2026-02-09,13,Monday,18:15,Evening,WhatsApp,General,0,42.5,No
+669,APT-000669,P00073,42,M,Panel,13.0,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2025-12-26,2026-01-15,20,Thursday,16:30,Afternoon,WhatsApp,General,2,40.5,No
+670,APT-000670,P00143,61,F,Insurance,5.2,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-05-31,2026-06-22,22,Monday,16:15,Afternoon,Phone,Health screening,0,156.5,No
+671,APT-000671,P00191,21,F,Insurance,5.3,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-03-16,2026-03-20,4,Friday,20:45,Evening,App,General,1,45.5,No
+672,APT-000672,P00433,18,F,Self-pay,8.7,0,KS04,Klang,Selangor,D021,Permanent,2026-02-08,2026-02-10,2,Tuesday,21:30,Evening,WhatsApp,General,1,43.5,No
+673,APT-000673,P00380,70,F,Self-pay,3.4,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-06-04,2026-06-05,1,Friday,19:00,Evening,Phone,General,0,50.0,Yes
+674,APT-000674,P00479,42,F,Panel,2.5,1,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-04-03,2026-04-06,3,Monday,20:00,Evening,WhatsApp,General,0,46.5,No
+675,APT-000675,P00689,24,M,Self-pay,4.6,1,KS03,Subang Jaya,Selangor,D020,Permanent,2026-01-25,2026-01-30,5,Friday,16:15,Afternoon,App,Follow-up,1,30.5,Yes
+676,APT-000676,P00137,44,F,Panel,11.6,0,KS04,Klang,Selangor,D021,Permanent,2026-04-16,2026-04-23,7,Thursday,21:00,Evening,App,Health screening,1,152.5,No
+677,APT-000677,P00560,41,M,Panel,7.2,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-03-20,2026-03-21,1,Saturday,18:15,Evening,WhatsApp,Health screening,1,149.19,No
+678,APT-000678,P00529,30,F,Self-pay,6.3,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-05-04,2026-05-13,9,Wednesday,15:15,Afternoon,WhatsApp,Follow-up,2,36.5,No
+679,APT-000679,P00605,85,M,Insurance,7.2,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-04-11,2026-04-16,5,Thursday,13:30,Afternoon,WhatsApp,General,1,40.0,Yes
+680,APT-000680,P00569,22,F,Panel,12.1,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-01-16,2026-01-17,1,Saturday,14:30,Afternoon,WhatsApp,Follow-up,1,44.0,Yes
+681,APT-000681,P00614,36,F,Insurance,3.4,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-02-02,2026-02-04,2,Wednesday,10:15,Morning,App,General,1,35.0,No
+682,APT-000682,P00486,38,F,Self-pay,6.9,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-02-08,2026-02-21,13,Saturday,17:30,Evening,WhatsApp,General,1,61.5,No
+683,APT-000683,P00172,44,M,Self-pay,22.0,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-05-12,2026-05-13,1,Wednesday,09:30,Morning,Website,Follow-up,0,44.0,Yes
+684,APT-000684,P00219,46,F,Insurance,3.3,2,KS05,Kajang,Selangor,D005,Locum,2026-02-22,2026-03-06,12,Friday,20:15,Evening,WhatsApp,Follow-up,1,45.0,Yes
+685,APT-000685,P00538,33,M,Panel,2.6,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-04-19,2026-05-01,12,Friday,17:45,Evening,App,General,1,43.0,No
+686,APT-000686,P00207,44,F,Self-pay,8.1,3,KS10,Rawang,Selangor,D010,Permanent,2026-04-02,2026-04-10,8,Friday,18:00,Evening,App,Follow-up,2,33.0,No
+687,APT-000687,P00283,84,F,Self-pay,2.9,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-04-11,2026-04-22,11,Wednesday,19:30,Evening,Website,Follow-up,0,34.5,No
+688,APT-000688,P00518,44,F,Self-pay,8.9,0,KS10,Rawang,Selangor,D012,Permanent,2026-05-19,2026-06-18,30,Thursday,19:45,Evening,WhatsApp,General,1,43.5,No
+689,APT-000689,P00641,49,M,Insurance,7.5,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-03-29,2026-03-31,2,Tuesday,15:15,Afternoon,WhatsApp,General,1,54.5,No
+690,APT-000690,P00324,13,F,Self-pay,4.5,2,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-05-29,2026-06-10,12,Wednesday,14:15,Afternoon,App,General,2,48.5,No
+691,APT-000691,P00344,29,F,Insurance,12.3,2,KS10,Rawang,Selangor,D018,Permanent,2025-12-15,2026-01-17,33,Saturday,21:30,Evening,App,General,2,52.0,No
+692,APT-000692,P00524,19,F,Self-pay,5.0,1,KS05,Kajang,Selangor,D011,Locum,2026-03-26,2026-03-27,1,Friday,11:30,Morning,WhatsApp,Follow-up,1,44.29,No
+693,APT-000693,P00373,43,M,Insurance,10.1,1,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-05-02,2026-05-07,5,Thursday,18:00,Evening,Phone,Health screening,2,140.5,Yes
+694,APT-000694,P00399,25,F,Panel,5.6,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-01-08,2026-02-09,32,Monday,18:00,Evening,Website,General,0,39.0,Yes
+695,APT-000695,P00614,36,F,Insurance,3.4,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-05-05,2026-05-14,9,Thursday,14:45,Afternoon,WhatsApp,General,1,51.5,No
+696,APT-000696,P00649,44,F,Insurance,11.0,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-05-08,2026-05-14,6,Thursday,18:45,Evening,Website,Health screening,0,150.5,No
+697,APT-000697,P00212,41,F,Self-pay,6.1,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-04-28,2026-05-08,10,Friday,17:15,Evening,WhatsApp,General,0,47.0,No
+698,APT-000698,P00050,59,M,Insurance,6.2,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-04-13,2026-04-16,3,Thursday,12:45,Afternoon,WhatsApp,General,2,51.5,No
+699,APT-000699,P00144,20,M,Self-pay,3.5,3,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-02-12,2026-02-26,14,Thursday,16:00,Afternoon,WhatsApp,General,2,44.53,Yes
+700,APT-000700,P00065,19,F,Self-pay,4.5,0,KS10,Rawang,Selangor,D010,Permanent,2026-03-09,2026-03-17,8,Tuesday,16:00,Afternoon,App,General,2,40.5,Yes
+701,APT-000701,P00657,63,M,Self-pay,5.9,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-04-18,2026-04-21,3,Tuesday,20:15,Evening,Phone,Health screening,0,155.5,No
+702,APT-000702,P00652,22,F,Panel,3.5,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-01-09,2026-01-10,1,Saturday,17:45,Evening,Phone,General,1,52.5,No
+703,APT-000703,P00117,34,M,Panel,4.4,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-03-21,2026-04-02,12,Thursday,10:45,Morning,WhatsApp,General,1,53.0,No
+704,APT-000704,P00037,34,M,Panel,3.2,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-02-13,2026-02-16,3,Monday,20:00,Evening,WhatsApp,Follow-up,2,34.5,No
+705,APT-000705,P00056,43,M,Panel,18.8,0,KS10,Rawang,Selangor,D010,Permanent,2026-01-29,2026-02-03,5,Tuesday,18:00,Evening,App,General,1,44.0,No
+706,APT-000706,P00548,34,M,Panel,10.6,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-02-13,2026-02-17,4,Tuesday,13:15,Afternoon,WhatsApp,General,0,50.5,No
+707,APT-000707,P00416,16,M,Self-pay,6.2,1,KS05,Kajang,Selangor,D011,Locum,2026-02-12,2026-02-12,0,Thursday,13:15,Afternoon,App,Follow-up,0,43.0,No
+708,APT-000708,P00201,65,F,Self-pay,3.0,0,KS03,Subang Jaya,Selangor,D003,Permanent,2025-12-07,2026-02-05,60,Thursday,12:45,Afternoon,App,General,0,32.0,No
+709,APT-000709,P00019,61,F,Insurance,3.8,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-05-07,2026-06-02,26,Tuesday,19:45,Evening,WhatsApp,Follow-up,0,35.0,No
+710,APT-000710,P00020,41,M,Self-pay,7.2,1,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-03-06,2026-03-06,0,Friday,12:45,Afternoon,WhatsApp,General,0,44.84,Yes
+711,APT-000711,P00032,61,F,Insurance,8.2,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-05-13,2026-05-15,2,Friday,15:30,Afternoon,WhatsApp,General,0,41.0,No
+712,APT-000712,P00523,41,F,Panel,3.8,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-04-30,2026-05-23,23,Saturday,17:15,Evening,WhatsApp,General,1,51.0,No
+713,APT-000713,P00545,46,M,Insurance,5.8,1,KS10,Rawang,Selangor,D012,Permanent,2026-01-14,2026-01-16,2,Friday,21:45,Evening,Phone,General,0,48.0,No
+714,APT-000714,P00681,27,F,Panel,10.6,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-01-04,2026-01-09,5,Friday,11:30,Morning,App,General,0,58.0,No
+715,APT-000715,P00193,48,M,Self-pay,5.9,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-02-21,2026-02-23,2,Monday,19:45,Evening,WhatsApp,General,1,51.0,No
+716,APT-000716,P00309,42,M,Self-pay,2.2,0,KS05,Kajang,Selangor,D005,Locum,2026-05-20,2026-06-06,17,Saturday,10:00,Morning,Phone,General,0,62.5,No
+717,APT-000717,P00648,25,M,Panel,8.1,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-06-15,2026-06-22,7,Monday,12:15,Afternoon,WhatsApp,Follow-up,1,33.5,No
+718,APT-000718,P00584,20,M,Self-pay,6.2,0,KS04,Klang,Selangor,D021,Permanent,2026-05-21,2026-05-22,1,Friday,15:15,Afternoon,App,General,0,47.0,No
+719,APT-000719,P00644,21,F,Insurance,11.0,2,KS03,Subang Jaya,Selangor,D020,Permanent,2026-02-02,2026-02-10,8,Tuesday,18:45,Evening,App,General,0,41.0,Yes
+720,APT-000720,P00295,58,F,Self-pay,23.3,0,KS10,Rawang,Selangor,D012,Permanent,2026-03-31,2026-03-31,0,Tuesday,21:00,Evening,App,General,0,38.5,No
+721,APT-000721,P00036,31,F,Insurance,2.8,0,KS03,Subang Jaya,Selangor,D017,Permanent,2025-12-28,2026-01-17,20,Saturday,17:00,Evening,Website,General,0,51.5,Yes
+722,APT-000722,P00399,25,F,Panel,5.6,1,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-02-10,2026-02-16,6,Monday,09:45,Morning,App,General,1,43.0,No
+723,APT-000723,P00288,49,M,Self-pay,7.7,1,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-04-12,2026-04-23,11,Thursday,09:45,Morning,Phone,Follow-up,0,36.0,Yes
+724,APT-000724,P00265,51,M,Insurance,3.4,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-03-31,2026-04-20,20,Monday,12:45,Afternoon,WhatsApp,Follow-up,0,42.0,Yes
+725,APT-000725,P00007,38,F,Panel,10.1,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-04-13,2026-04-15,2,Wednesday,10:15,Morning,App,General,1,44.0,No
+726,APT-000726,P00246,72,M,Insurance,5.9,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-01-27,2026-02-23,27,Monday,13:45,Afternoon,Phone,General,1,35.0,No
+727,APT-000727,P00114,36,F,Insurance,11.8,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-02-22,2026-03-03,9,Tuesday,17:30,Evening,WhatsApp,General,2,42.0,No
+728,APT-000728,P00107,34,F,Insurance,11.9,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-04-05,2026-04-06,1,Monday,18:30,Evening,Phone,General,1,57.5,No
+729,APT-000729,P00112,39,M,Self-pay,20.2,0,KS05,Kajang,Selangor,D011,Locum,2025-12-29,2026-01-27,29,Tuesday,20:45,Evening,WhatsApp,General,2,47.5,No
+730,APT-000730,P00615,59,M,Self-pay,23.4,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-06-03,2026-06-13,10,Saturday,20:15,Evening,App,General,1,49.5,Yes
+731,APT-000731,P00174,37,M,Panel,6.7,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-05-12,2026-06-03,22,Wednesday,17:45,Evening,WhatsApp,General,2,45.5,No
+732,APT-000732,P00350,21,F,Insurance,7.5,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-06-15,2026-06-15,0,Monday,18:00,Evening,App,Health screening,0,150.5,Yes
+733,APT-000733,P00378,45,M,Self-pay,16.7,0,KS10,Rawang,Selangor,D012,Permanent,2026-06-13,2026-06-23,10,Tuesday,20:15,Evening,App,General,1,45.25,No
+734,APT-000734,P00058,54,M,Panel,1.8,1,KS03,Subang Jaya,Selangor,D013,Permanent,2026-04-16,2026-05-14,28,Thursday,09:45,Morning,WhatsApp,Follow-up,2,27.0,No
+735,APT-000735,P00288,49,M,Self-pay,7.7,1,KS03,Subang Jaya,Selangor,D015,Locum,2026-05-13,2026-05-16,3,Saturday,21:00,Evening,Website,General,1,51.0,No
+736,APT-000736,P00587,64,M,Insurance,10.1,1,KS10,Rawang,Selangor,D018,Permanent,2026-05-04,2026-05-05,1,Tuesday,21:15,Evening,Phone,Follow-up,0,30.0,No
+737,APT-000737,P00091,29,F,Panel,12.9,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-06-07,2026-06-25,18,Thursday,14:00,Afternoon,App,General,1,39.0,Yes
+738,APT-000738,P00069,65,F,Self-pay,7.3,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-02-14,2026-02-26,12,Thursday,13:00,Afternoon,App,Follow-up,0,40.0,No
+739,APT-000739,P00340,65,M,Self-pay,1.6,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-04-01,2026-04-15,14,Wednesday,12:15,Afternoon,WhatsApp,Follow-up,1,39.5,No
+740,APT-000740,P00430,31,F,Panel,14.7,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-02-20,2026-02-27,7,Friday,11:45,Morning,WhatsApp,Follow-up,1,28.0,No
+741,APT-000741,P00299,20,F,Self-pay,6.5,2,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-01-18,2026-01-31,13,Saturday,12:15,Afternoon,Website,General,0,52.5,Yes
+742,APT-000742,P00467,56,M,Insurance,21.0,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-01-07,2026-01-08,1,Thursday,20:00,Evening,App,Health screening,1,154.5,No
+743,APT-000743,P00109,22,M,Insurance,7.4,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-01-26,2026-02-07,12,Saturday,18:00,Evening,Phone,Follow-up,0,39.5,Yes
+744,APT-000744,P00222,54,M,Self-pay,7.3,2,KS03,Subang Jaya,Selangor,D022,Permanent,2026-01-05,2026-01-27,22,Tuesday,18:15,Evening,Phone,Health screening,0,154.0,No
+745,APT-000745,P00300,47,M,Insurance,3.7,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-06-05,2026-06-05,0,Friday,11:00,Morning,App,Health screening,0,153.5,No
+746,APT-000746,P00012,34,M,Insurance,1.3,1,KS03,Subang Jaya,Selangor,D017,Permanent,2026-03-28,2026-04-03,6,Friday,11:45,Morning,WhatsApp,General,1,35.0,No
+747,APT-000747,P00267,59,F,Insurance,5.5,0,KS10,Rawang,Selangor,D012,Permanent,2026-03-17,2026-03-19,2,Thursday,18:00,Evening,Website,Follow-up,0,34.5,No
+748,APT-000748,P00554,37,F,Panel,26.5,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-04-12,2026-05-11,29,Monday,14:45,Afternoon,App,General,0,48.0,No
+749,APT-000749,P00611,21,M,Self-pay,13.0,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-01-31,2026-02-02,2,Monday,19:00,Evening,Website,Follow-up,1,43.5,No
+750,APT-000750,P00361,38,M,Self-pay,3.8,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-02-22,2026-03-21,27,Saturday,12:30,Afternoon,App,General,2,40.0,No
+751,APT-000751,P00378,45,M,Self-pay,16.7,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-01-14,2026-01-14,0,Wednesday,14:45,Afternoon,App,General,0,39.5,Yes
+752,APT-000752,P00023,40,F,Insurance,2.5,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-05-02,2026-05-02,0,Saturday,10:45,Morning,App,Follow-up,0,43.5,Yes
+753,APT-000753,P00568,31,F,Self-pay,4.2,0,KS04,Klang,Selangor,D004,Permanent,2026-01-12,2026-02-12,31,Thursday,11:45,Morning,WhatsApp,General,2,45.0,No
+754,APT-000754,P00675,37,M,Self-pay,11.4,1,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-02-22,2026-02-24,2,Tuesday,11:00,Morning,App,Follow-up,1,35.5,No
+755,APT-000755,P00164,24,M,Panel,6.6,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-01-25,2026-02-03,9,Tuesday,16:45,Afternoon,WhatsApp,General,2,56.0,No
+756,APT-000756,P00323,60,F,Self-pay,6.6,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-06-07,2026-06-09,2,Tuesday,11:15,Morning,Website,Follow-up,0,45.5,Yes
+757,APT-000757,P00466,56,F,Panel,6.5,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-05-13,2026-06-15,33,Monday,17:15,Evening,WhatsApp,Follow-up,1,31.0,No
+758,APT-000758,P00656,27,F,Insurance,4.9,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-01-31,2026-01-31,0,Saturday,20:00,Evening,App,General,0,60.0,Yes
+759,APT-000759,P00366,33,F,Insurance,2.6,2,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-04-15,2026-04-24,9,Friday,16:15,Afternoon,Website,General,0,51.0,Yes
+760,APT-000760,P00643,29,M,Self-pay,4.6,1,KS04,Klang,Selangor,D004,Permanent,2026-02-22,2026-03-11,17,Wednesday,16:00,Afternoon,App,Health screening,1,149.19,Yes
+761,APT-000761,P00458,34,M,Insurance,6.6,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-02-28,2026-03-11,11,Wednesday,09:30,Morning,WhatsApp,General,0,40.5,No
+762,APT-000762,P00311,41,F,Panel,4.4,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-01-03,2026-02-10,38,Tuesday,20:00,Evening,Phone,Follow-up,0,52.0,Yes
+763,APT-000763,P00428,33,F,Panel,9.1,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-04-30,2026-05-01,1,Friday,09:30,Morning,WhatsApp,General,1,45.0,No
+764,APT-000764,P00431,47,M,Panel,3.1,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-05-16,2026-05-16,0,Saturday,20:00,Evening,Phone,General,0,41.0,No
+765,APT-000765,P00531,25,M,Panel,5.2,4,KS03,Subang Jaya,Selangor,D003,Permanent,2026-02-22,2026-03-06,12,Friday,20:30,Evening,App,General,1,46.0,No
+766,APT-000766,P00047,58,M,Insurance,3.0,0,KS05,Kajang,Selangor,D005,Locum,2026-05-25,2026-05-30,5,Saturday,19:15,Evening,Website,Health screening,2,164.5,No
+767,APT-000767,P00127,37,M,Insurance,2.9,2,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-01-09,2026-01-17,8,Saturday,11:45,Morning,Phone,Follow-up,1,40.5,Yes
+768,APT-000768,P00016,44,M,Insurance,19.7,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-03-03,2026-03-10,7,Tuesday,12:00,Afternoon,WhatsApp,Follow-up,1,39.0,No
+769,APT-000769,P00538,33,M,Panel,2.6,0,KS04,Klang,Selangor,D004,Permanent,2026-02-04,2026-02-04,0,Wednesday,20:30,Evening,App,General,0,44.5,No
+770,APT-000770,P00649,44,F,Insurance,11.0,1,KS04,Klang,Selangor,D004,Permanent,2026-05-20,2026-05-26,6,Tuesday,14:45,Afternoon,WhatsApp,General,1,54.0,No
+771,APT-000771,P00610,41,F,Panel,6.3,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-06-22,2026-06-22,0,Monday,12:00,Afternoon,WhatsApp,Follow-up,0,42.5,No
+772,APT-000772,P00223,36,F,Panel,8.6,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-04-17,2026-04-22,5,Wednesday,12:30,Afternoon,Website,General,0,41.5,No
+773,APT-000773,P00665,51,M,Panel,2.7,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-01-13,2026-02-09,27,Monday,18:15,Evening,Phone,General,0,55.0,No
+774,APT-000774,P00268,55,M,Self-pay,3.7,0,KS04,Klang,Selangor,D021,Permanent,2026-01-06,2026-01-16,10,Friday,13:30,Afternoon,WhatsApp,Health screening,2,138.0,No
+775,APT-000775,P00629,27,M,Panel,2.2,2,KS10,Rawang,Selangor,D010,Permanent,2026-01-19,2026-02-05,17,Thursday,16:00,Afternoon,App,General,0,47.0,Yes
+776,APT-000776,P00422,39,F,Panel,8.1,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-04-01,2026-04-01,0,Wednesday,19:30,Evening,Website,General,0,47.0,No
+777,APT-000777,P00403,37,F,Insurance,11.9,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-02-17,2026-02-18,1,Wednesday,16:00,Afternoon,App,General,1,38.5,No
+778,APT-000778,P00580,16,M,Insurance,4.2,1,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-03-29,2026-04-18,20,Saturday,13:30,Afternoon,Website,General,1,49.5,No
+779,APT-000779,P00558,42,M,Panel,3.3,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-02-13,2026-02-13,0,Friday,20:45,Evening,WhatsApp,General,0,44.45,No
+780,APT-000780,P00550,39,M,Panel,6.2,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-05-21,2026-05-23,2,Saturday,16:15,Afternoon,Website,General,1,44.5,No
+781,APT-000781,P00090,37,F,Panel,4.4,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-06-15,2026-06-20,5,Saturday,12:15,Afternoon,App,Follow-up,1,37.5,No
+782,APT-000782,P00462,36,F,Insurance,6.2,0,KS05,Kajang,Selangor,D005,Locum,2026-06-14,2026-06-24,10,Wednesday,16:45,Afternoon,Website,General,1,55.0,No
+783,APT-000783,P00220,25,M,Panel,14.5,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-02-13,2026-03-07,22,Saturday,14:30,Afternoon,WhatsApp,General,2,54.5,Yes
+784,APT-000784,P00570,40,F,Panel,5.5,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-01-13,2026-01-15,2,Thursday,15:15,Afternoon,WhatsApp,General,0,36.5,No
+785,APT-000785,P00394,66,F,Self-pay,3.4,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-06-05,2026-06-17,12,Wednesday,20:15,Evening,WhatsApp,Health screening,2,144.5,No
+786,APT-000786,P00174,37,M,Panel,6.7,0,KS10,Rawang,Selangor,D018,Permanent,2026-01-30,2026-02-05,6,Thursday,20:15,Evening,Phone,General,1,53.5,No
+787,APT-000787,P00690,64,F,Self-pay,14.6,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-03-05,2026-03-30,25,Monday,16:00,Afternoon,Phone,General,2,44.0,Yes
+788,APT-000788,P00465,49,M,Insurance,25.4,1,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-05-04,2026-05-05,1,Tuesday,14:15,Afternoon,Phone,Follow-up,0,39.5,No
+789,APT-000789,P00616,35,F,Insurance,5.4,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-01-22,2026-01-31,9,Saturday,20:30,Evening,WhatsApp,General,2,45.5,No
+790,APT-000790,P00008,29,F,Panel,11.2,0,KS05,Kajang,Selangor,D005,Locum,2026-03-28,2026-04-08,11,Wednesday,20:30,Evening,App,General,0,51.5,No
+791,APT-000791,P00106,61,F,Self-pay,7.9,1,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-02-10,2026-03-28,46,Saturday,14:00,Afternoon,Phone,General,2,49.0,Yes
+792,APT-000792,P00627,67,M,Self-pay,16.6,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-05-24,2026-06-05,12,Friday,17:15,Evening,WhatsApp,Follow-up,2,42.5,No
+793,APT-000793,P00236,32,F,Panel,8.2,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-04-02,2026-04-11,9,Saturday,10:45,Morning,Website,General,1,46.5,No
+794,APT-000794,P00237,50,F,Panel,6.2,1,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-04-06,2026-04-10,4,Friday,18:15,Evening,WhatsApp,Health screening,1,155.5,No
+795,APT-000795,P00442,38,M,Insurance,14.4,0,KS10,Rawang,Selangor,D012,Permanent,2026-06-16,2026-06-20,4,Saturday,15:45,Afternoon,App,Follow-up,2,35.85,No
+796,APT-000796,P00590,45,F,Self-pay,1.8,1,KS02,Shah Alam,Selangor,D002,Permanent,2026-05-20,2026-05-22,2,Friday,19:30,Evening,Website,Follow-up,0,35.5,No
+797,APT-000797,P00048,23,F,Panel,7.8,2,KS10,Rawang,Selangor,D012,Permanent,2026-05-19,2026-05-29,10,Friday,10:45,Morning,App,General,2,42.0,No
+798,APT-000798,P00444,40,M,Panel,4.9,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-04-02,2026-04-06,4,Monday,17:15,Evening,Website,General,0,56.0,No
+799,APT-000799,P00310,28,M,Panel,3.9,1,KS03,Subang Jaya,Selangor,D020,Permanent,2026-06-26,2026-06-27,1,Saturday,19:45,Evening,Phone,General,0,49.5,No
+800,APT-000800,P00188,21,F,Self-pay,8.0,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-01-01,2026-01-28,27,Wednesday,13:30,Afternoon,WhatsApp,General,0,46.0,Yes
+801,APT-000801,P00570,40,F,Panel,5.5,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-03-02,2026-03-24,22,Tuesday,11:45,Morning,Website,Health screening,1,146.0,No
+802,APT-000802,P00662,26,M,Panel,6.3,1,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-01-15,2026-01-17,2,Saturday,13:45,Afternoon,WhatsApp,Health screening,1,146.0,No
+803,APT-000803,P00657,62,M,Self-pay,5.9,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-03-21,2026-04-08,18,Wednesday,10:00,Morning,WhatsApp,Health screening,1,139.5,No
+804,APT-000804,P00683,37,F,Panel,6.6,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-01-21,2026-01-28,7,Wednesday,10:00,Morning,App,Follow-up,2,38.0,No
+805,APT-000805,P00252,24,F,Panel,4.1,1,KS05,Kajang,Selangor,D011,Locum,2026-05-15,2026-05-15,0,Friday,20:30,Evening,App,General,0,56.5,No
+806,APT-000806,P00448,52,M,Panel,4.1,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-01-27,2026-01-31,4,Saturday,20:30,Evening,App,General,1,35.5,No
+807,APT-000807,P00544,59,M,Self-pay,7.2,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-16,2026-02-16,0,Monday,13:00,Afternoon,App,General,0,31.0,No
+808,APT-000808,P00305,25,M,Self-pay,3.3,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-04-09,2026-04-09,0,Thursday,11:15,Morning,App,General,0,55.5,No
+809,APT-000809,P00301,56,M,Self-pay,8.4,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-03-15,2026-04-01,17,Wednesday,13:30,Afternoon,Phone,General,0,44.0,No
+810,APT-000810,P00655,39,F,Self-pay,9.3,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-02-13,2026-02-18,5,Wednesday,21:15,Evening,WhatsApp,Follow-up,1,41.5,No
+811,APT-000811,P00251,33,F,Insurance,3.3,1,KS04,Klang,Selangor,D021,Permanent,2026-03-11,2026-04-04,24,Saturday,11:00,Morning,Website,General,0,49.5,Yes
+812,APT-000812,P00058,54,M,Panel,1.8,1,KS10,Rawang,Selangor,D012,Permanent,2026-02-07,2026-02-12,5,Thursday,14:15,Afternoon,Phone,General,2,43.0,No
+813,APT-000813,P00641,54,M,Insurance,7.5,0,KS10,Rawang,Selangor,D010,Permanent,2026-01-31,2026-02-02,2,Monday,21:15,Evening,Phone,Follow-up,0,35.07,Yes
+814,APT-000814,P00402,41,F,Panel,3.7,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-01-14,2026-02-04,21,Wednesday,20:45,Evening,Phone,Follow-up,0,38.5,No
+815,APT-000815,P00400,27,M,Insurance,3.4,1,KS10,Rawang,Selangor,D018,Permanent,2026-04-20,2026-05-12,22,Tuesday,10:00,Morning,WhatsApp,General,0,45.0,No
+816,APT-000816,P00155,46,M,Self-pay,23.5,2,KS10,Rawang,Selangor,D010,Permanent,2026-02-01,2026-02-20,19,Friday,17:30,Evening,App,General,2,43.0,Yes
+817,APT-000817,P00186,54,F,Panel,14.9,1,KS05,Kajang,Selangor,D011,Locum,2026-03-18,2026-03-18,0,Wednesday,10:15,Morning,Website,General,0,52.0,No
+818,APT-000818,P00271,31,F,Self-pay,2.6,1,KS03,Subang Jaya,Selangor,D017,Permanent,2026-01-30,2026-01-31,1,Saturday,21:15,Evening,Website,General,1,55.0,No
+819,APT-000819,P00563,54,M,Insurance,4.4,1,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-04-12,2026-04-23,11,Thursday,17:15,Evening,App,General,1,52.5,No
+820,APT-000820,P00349,50,F,Panel,5.0,0,KS04,Klang,Selangor,D021,Permanent,2026-03-23,2026-03-23,0,Monday,15:00,Afternoon,Phone,General,0,52.5,No
+821,APT-000821,P00291,41,M,Panel,10.9,1,KS05,Kajang,Selangor,D011,Locum,2026-03-07,2026-03-20,13,Friday,10:45,Morning,Phone,Health screening,2,156.5,No
+822,APT-000822,P00162,50,F,Panel,10.6,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-06-10,2026-06-13,3,Saturday,15:30,Afternoon,WhatsApp,Health screening,0,150.0,No
+823,APT-000823,P00652,22,F,Panel,3.5,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-02-25,2026-03-07,10,Saturday,16:00,Afternoon,App,General,2,41.0,No
+824,APT-000824,P00253,23,F,Insurance,3.6,1,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-01-11,2026-01-13,2,Tuesday,21:45,Evening,Website,General,1,37.5,No
+825,APT-000825,P00006,36,M,Insurance,3.7,1,KS03,Subang Jaya,Selangor,D003,Permanent,2026-03-15,2026-03-20,5,Friday,16:30,Afternoon,Phone,General,1,47.0,No
+826,APT-000826,P00186,54,F,Panel,14.9,1,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-03-06,2026-03-14,8,Saturday,14:00,Afternoon,WhatsApp,General,1,44.0,No
+827,APT-000827,P00170,36,M,Panel,5.2,1,KS03,Subang Jaya,Selangor,D015,Locum,2026-01-24,2026-02-12,19,Thursday,12:00,Afternoon,WhatsApp,Follow-up,1,49.0,Yes
+828,APT-000828,P00268,55,M,Self-pay,3.7,0,KS10,Rawang,Selangor,D018,Permanent,2026-02-21,2026-03-27,34,Friday,12:00,Afternoon,Phone,Follow-up,0,35.0,Yes
+829,APT-000829,P00085,35,F,Panel,4.1,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-05-12,2026-05-16,4,Saturday,16:00,Afternoon,App,General,1,56.0,No
+830,APT-000830,P00465,34,M,Insurance,25.4,1,KS03,Subang Jaya,Selangor,D003,Permanent,2026-01-31,2026-02-02,2,Monday,09:45,Morning,WhatsApp,General,0,48.0,No
+831,APT-000831,P00431,50,M,Panel,3.1,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-04-20,2026-04-21,1,Tuesday,21:00,Evening,App,Follow-up,0,36.5,No
+832,APT-000832,P00415,34,F,Panel,8.2,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-01-20,2026-01-30,10,Friday,10:00,Morning,Website,Follow-up,1,40.5,No
+833,APT-000833,P00100,20,F,Panel,7.2,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-02-13,2026-02-16,3,Monday,17:45,Evening,WhatsApp,General,0,47.5,No
+834,APT-000834,P00643,29,M,Self-pay,4.6,1,KS03,Subang Jaya,Selangor,D023,Permanent,2026-04-07,2026-04-09,2,Thursday,15:45,Afternoon,App,Health screening,1,143.0,No
+835,APT-000835,P00098,25,F,Insurance,4.4,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-03-16,2026-03-19,3,Thursday,10:30,Morning,WhatsApp,General,2,52.0,No
+836,APT-000836,P00105,27,F,Panel,12.3,2,KS03,Subang Jaya,Selangor,D022,Permanent,2026-03-15,2026-03-30,15,Monday,15:30,Afternoon,WhatsApp,General,1,47.5,No
+837,APT-000837,P00352,57,M,Self-pay,6.9,1,KS04,Klang,Selangor,D021,Permanent,2026-05-12,2026-05-12,0,Tuesday,20:45,Evening,Website,General,0,44.5,No
+838,APT-000838,P00524,19,F,Self-pay,5.0,1,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-02-08,2026-02-23,15,Monday,12:30,Afternoon,App,Follow-up,1,45.0,No
+839,APT-000839,P00324,13,F,Self-pay,4.5,2,KS02,Shah Alam,Selangor,D002,Permanent,2026-03-16,2026-03-17,1,Tuesday,12:45,Afternoon,App,General,1,40.5,No
+840,APT-000840,P00360,51,F,Self-pay,18.3,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-03-15,2026-03-17,2,Tuesday,20:30,Evening,Phone,General,0,53.0,No
+841,APT-000841,P00671,29,F,Self-pay,3.5,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-02-22,2026-03-14,20,Saturday,15:30,Afternoon,App,General,2,44.0,No
+842,APT-000842,P00230,60,M,Insurance,25.5,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2025-12-31,2026-01-06,6,Tuesday,20:30,Evening,Phone,Follow-up,0,41.5,No
+843,APT-000843,P00400,27,M,Insurance,3.4,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-06-18,2026-06-20,2,Saturday,15:00,Afternoon,App,General,1,50.0,Yes
+844,APT-000844,P00057,33,M,Panel,8.4,1,KS05,Kajang,Selangor,D011,Locum,2026-02-17,2026-02-20,3,Friday,11:30,Morning,WhatsApp,General,1,58.0,No
+845,APT-000845,P00252,24,F,Panel,4.1,1,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-04-30,2026-05-01,1,Friday,21:45,Evening,App,Follow-up,1,35.5,No
+846,APT-000846,P00637,10,F,Self-pay,6.3,1,KS03,Subang Jaya,Selangor,D017,Permanent,2026-06-12,2026-06-17,5,Wednesday,21:30,Evening,WhatsApp,Follow-up,2,30.0,No
+847,APT-000847,P00443,50,M,Panel,4.4,1,KS10,Rawang,Selangor,D012,Permanent,2026-03-28,2026-03-28,0,Saturday,16:45,Afternoon,WhatsApp,General,0,44.7,No
+848,APT-000848,P00450,90,F,Self-pay,6.0,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-05-12,2026-05-15,3,Friday,16:00,Afternoon,Phone,General,0,47.0,No
+849,APT-000849,P00517,27,F,Panel,3.4,2,KS03,Subang Jaya,Selangor,D013,Permanent,2026-05-30,2026-06-01,2,Monday,12:45,Afternoon,App,General,0,43.0,No
+850,APT-000850,P00540,36,M,Self-pay,7.0,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-03-21,2026-04-11,21,Saturday,15:00,Afternoon,WhatsApp,General,2,51.0,No
+851,APT-000851,P00585,35,M,Panel,24.8,1,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-05-23,2026-05-25,2,Monday,10:00,Morning,Website,Follow-up,1,34.5,Yes
+852,APT-000852,P00175,40,F,Panel,4.6,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-03-02,2026-03-07,5,Saturday,17:30,Evening,App,General,2,42.0,Yes
+853,APT-000853,P00257,40,F,Self-pay,10.4,1,KS03,Subang Jaya,Selangor,D020,Permanent,2026-02-05,2026-02-11,6,Wednesday,14:15,Afternoon,Website,General,1,47.0,No
+854,APT-000854,P00556,23,M,Self-pay,6.2,1,KS09,Putrajaya,Putrajaya,D024,Locum,2026-02-25,2026-03-13,16,Friday,19:00,Evening,WhatsApp,Follow-up,1,38.5,No
+855,APT-000855,P00027,31,F,Self-pay,11.1,3,KS03,Subang Jaya,Selangor,D023,Permanent,2026-06-19,2026-06-19,0,Friday,20:30,Evening,WhatsApp,Follow-up,0,33.5,No
+856,APT-000856,P00694,29,F,Panel,6.5,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-06-08,2026-06-10,2,Wednesday,10:30,Morning,Website,General,0,45.45,No
+857,APT-000857,P00486,38,F,Self-pay,6.9,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-06-11,2026-06-22,11,Monday,09:30,Morning,WhatsApp,General,2,43.0,No
+858,APT-000858,P00668,37,F,Self-pay,9.8,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-06-01,2026-06-10,9,Wednesday,21:00,Evening,App,General,1,39.5,No
+859,APT-000859,P00306,46,F,Insurance,2.7,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-04-23,2026-04-24,1,Friday,09:45,Morning,Phone,General,1,40.5,No
+860,APT-000860,P00231,25,M,Panel,4.0,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-06-07,2026-06-09,2,Tuesday,21:30,Evening,Phone,General,0,50.0,No
+861,APT-000861,P00042,32,M,Self-pay,2.7,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-03-30,2026-04-01,2,Wednesday,16:15,Afternoon,App,General,1,47.0,No
+862,APT-000862,P00552,49,M,Insurance,5.0,0,KS10,Rawang,Selangor,D018,Permanent,2026-05-18,2026-05-22,4,Friday,13:15,Afternoon,App,General,0,39.0,No
+863,APT-000863,P00068,50,M,Insurance,3.5,0,KS06,Cheras,Kuala Lumpur,D019,Permanent,2026-03-30,2026-03-30,0,Monday,16:00,Afternoon,Phone,General,0,44.5,No
+864,APT-000864,P00009,21,M,Self-pay,1.2,2,KS04,Klang,Selangor,D004,Permanent,2026-02-05,2026-02-09,4,Monday,11:00,Morning,Website,Follow-up,0,36.0,No
+865,APT-000865,P00689,24,M,Self-pay,4.6,1,KS04,Klang,Selangor,D004,Permanent,2025-12-25,2026-01-13,19,Tuesday,20:15,Evening,App,Follow-up,2,42.0,No
+866,APT-000866,P00067,17,M,Self-pay,9.0,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-04-21,2026-04-27,6,Monday,15:00,Afternoon,App,General,2,47.0,No
+867,APT-000867,P00463,17,F,Self-pay,4.7,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-03-21,2026-03-31,10,Tuesday,16:15,Afternoon,App,General,0,49.5,No
+868,APT-000868,P00422,33,F,Panel,8.1,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-02-13,2026-02-18,5,Wednesday,14:15,Afternoon,App,General,2,46.5,No
+869,APT-000869,P00421,23,F,Insurance,1.6,1,KS03,Subang Jaya,Selangor,D023,Permanent,2026-01-13,2026-01-14,1,Wednesday,11:15,Morning,App,Follow-up,1,45.0,Yes
+870,APT-000870,P00402,41,F,Panel,3.7,1,KS04,Klang,Selangor,D021,Permanent,2026-05-06,2026-05-18,12,Monday,14:30,Afternoon,Website,Follow-up,2,39.5,No
+871,APT-000871,P00356,34,F,Panel,2.8,0,KS03,Subang Jaya,Selangor,D020,Permanent,2025-12-31,2026-01-08,8,Thursday,20:00,Evening,Phone,General,1,47.5,No
+872,APT-000872,P00600,65,M,Insurance,5.3,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-01-14,2026-01-30,16,Friday,20:15,Evening,Phone,General,1,42.0,No
+873,APT-000873,P00465,34,M,Insurance,25.4,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2025-12-19,2026-01-17,29,Saturday,17:15,Evening,App,General,2,49.5,Yes
+874,APT-000874,P00317,41,M,Panel,7.7,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-03-08,2026-03-13,5,Friday,13:00,Afternoon,WhatsApp,General,0,49.5,No
+875,APT-000875,P00236,32,F,Panel,8.2,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-04-15,2026-04-15,0,Wednesday,19:00,Evening,App,Follow-up,0,35.5,No
+876,APT-000876,P00493,75,F,Self-pay,4.2,1,KS03,Subang Jaya,Selangor,D015,Locum,2026-03-30,2026-04-03,4,Friday,10:30,Morning,App,Follow-up,2,53.5,No
+877,APT-000877,P00294,59,M,Insurance,3.9,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-04-09,2026-04-10,1,Friday,12:45,Afternoon,Phone,Health screening,1,157.5,No
+878,APT-000878,P00458,34,M,Insurance,6.6,0,KS04,Klang,Selangor,D004,Permanent,2026-04-06,2026-04-07,1,Tuesday,15:00,Afternoon,Phone,Follow-up,1,39.0,No
+879,APT-000879,P00348,24,F,Insurance,6.5,1,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-05-18,2026-05-20,2,Wednesday,15:15,Afternoon,Website,General,0,52.0,Yes
+880,APT-000880,P00577,42,F,Self-pay,2.1,1,KS05,Kajang,Selangor,D011,Locum,2026-02-26,2026-02-26,0,Thursday,18:15,Evening,Website,General,0,56.5,No
+881,APT-000881,P00097,45,F,Panel,8.4,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-05-30,2026-05-30,0,Saturday,11:45,Morning,Phone,General,0,47.5,No
+882,APT-000882,P00226,28,M,Insurance,4.0,1,KS05,Kajang,Selangor,D005,Locum,2026-06-11,2026-06-15,4,Monday,12:45,Afternoon,Website,Follow-up,0,44.5,Yes
+883,APT-000883,P00245,48,F,Self-pay,35.7,0,KS10,Rawang,Selangor,D012,Permanent,2026-05-10,2026-06-01,22,Monday,12:15,Afternoon,Website,General,0,45.0,Yes
+884,APT-000884,P00320,22,M,Panel,7.6,0,KS05,Kajang,Selangor,D005,Locum,2026-01-28,2026-02-02,5,Monday,13:15,Afternoon,WhatsApp,General,2,49.5,No
+885,APT-000885,P00653,49,F,Self-pay,12.6,2,KS10,Rawang,Selangor,D010,Permanent,2026-05-11,2026-05-13,2,Wednesday,18:15,Evening,App,Follow-up,1,34.86,No
+886,APT-000886,P00447,27,F,Self-pay,11.8,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-03-22,2026-03-28,6,Saturday,15:45,Afternoon,App,General,1,52.5,No
+887,APT-000887,P00622,36,M,Insurance,5.4,1,KS10,Rawang,Selangor,D010,Permanent,2026-01-12,2026-01-13,1,Tuesday,19:15,Evening,App,General,1,55.0,No
+888,APT-000888,P00641,49,M,Insurance,7.5,0,KS10,Rawang,Selangor,D012,Permanent,2026-01-10,2026-01-14,4,Wednesday,17:15,Evening,Website,General,0,42.5,No
+889,APT-000889,P00499,22,F,Insurance,4.1,1,KS05,Kajang,Selangor,D005,Locum,2026-03-12,2026-03-13,1,Friday,15:15,Afternoon,WhatsApp,General,1,55.0,No
+890,APT-000890,P00472,25,F,Self-pay,15.9,2,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-04-15,2026-05-19,34,Tuesday,15:00,Afternoon,App,General,2,47.0,Yes
+891,APT-000891,P00568,31,F,Self-pay,4.2,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-02-11,2026-02-19,8,Thursday,09:00,Morning,WhatsApp,General,2,53.0,No
+892,APT-000892,P00194,18,M,Self-pay,11.1,1,KS04,Klang,Selangor,D021,Permanent,2026-03-28,2026-04-14,17,Tuesday,14:45,Afternoon,WhatsApp,General,1,41.5,Yes
+893,APT-000893,P00261,38,F,Insurance,2.9,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-02-23,2026-02-24,1,Tuesday,11:15,Morning,App,Follow-up,1,35.5,No
+894,APT-000894,P00224,58,M,Panel,6.7,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-06-17,2026-06-23,6,Tuesday,20:00,Evening,App,Health screening,2,154.0,No
+895,APT-000895,P00337,29,M,Panel,13.7,2,KS03,Subang Jaya,Selangor,D022,Permanent,2026-01-21,2026-01-21,0,Wednesday,17:15,Evening,WhatsApp,General,0,45.5,No
+896,APT-000896,P00095,34,F,Panel,4.7,2,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-06-01,2026-06-20,19,Saturday,12:45,Afternoon,Phone,General,2,49.0,Yes
+897,APT-000897,P00690,64,F,Self-pay,14.6,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-02-26,2026-03-25,27,Wednesday,20:45,Evening,Phone,General,2,58.5,No
+898,APT-000898,P00052,28,F,Insurance,8.5,0,KS04,Klang,Selangor,D021,Permanent,2026-02-24,2026-03-03,7,Tuesday,10:15,Morning,WhatsApp,General,0,45.5,No
+899,APT-000899,P00204,22,F,Panel,5.8,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-03-05,2026-03-14,9,Saturday,13:00,Afternoon,WhatsApp,General,1,50.5,No
+900,APT-000900,P00357,32,F,Self-pay,3.0,1,KS05,Kajang,Selangor,D011,Locum,2026-06-07,2026-06-24,17,Wednesday,12:45,Afternoon,Phone,General,0,48.5,No
+901,APT-000901,P00452,59,M,Self-pay,9.3,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-26,2026-02-28,2,Saturday,09:00,Morning,Website,Follow-up,0,45.5,Yes
+902,APT-000902,P00499,22,F,Insurance,4.1,1,KS10,Rawang,Selangor,D010,Permanent,2026-03-13,2026-03-30,17,Monday,10:45,Morning,App,General,1,40.0,No
+903,APT-000903,P00405,27,F,Panel,2.8,2,KS10,Rawang,Selangor,D012,Permanent,2026-03-25,2026-04-03,9,Friday,18:45,Evening,App,General,1,44.08,No
+904,APT-000904,P00422,33,F,Panel,8.1,0,KS03,Subang Jaya,Selangor,D017,Permanent,2025-12-23,2026-01-30,38,Friday,14:00,Afternoon,App,General,2,50.0,No
+905,APT-000905,P00483,37,F,Panel,5.2,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-05-03,2026-05-11,8,Monday,10:45,Morning,Phone,General,1,42.0,No
+906,APT-000906,P00183,49,F,Self-pay,6.7,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-01-06,2026-01-15,9,Thursday,16:15,Afternoon,Phone,General,2,49.0,No
+907,APT-000907,P00585,35,M,Panel,24.8,1,KS10,Rawang,Selangor,D010,Permanent,2026-05-05,2026-05-28,23,Thursday,16:15,Afternoon,App,General,2,44.5,No
+908,APT-000908,P00164,24,M,Panel,6.6,0,KS03,Subang Jaya,Selangor,D013,Permanent,2026-06-11,2026-06-26,15,Friday,10:45,Morning,WhatsApp,General,2,42.5,No
+909,APT-000909,P00092,9,M,Self-pay,14.0,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-04-12,2026-04-14,2,Tuesday,12:00,Afternoon,WhatsApp,General,1,53.0,No
+910,APT-000910,P00408,64,F,Self-pay,4.4,0,KS05,Kajang,Selangor,D005,Locum,2026-01-11,2026-01-15,4,Thursday,21:30,Evening,App,Follow-up,1,43.5,Yes
+911,APT-000911,P00474,16,F,Insurance,7.7,1,KS03,Subang Jaya,Selangor,D015,Locum,2026-06-13,2026-06-15,2,Monday,09:00,Morning,App,General,1,52.0,No
+912,APT-000912,P00567,41,M,Insurance,8.9,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-01-17,2026-02-04,18,Wednesday,13:30,Afternoon,WhatsApp,General,1,51.5,No
+913,APT-000913,P00423,15,M,Self-pay,2.4,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-01-18,2026-01-23,5,Friday,17:45,Evening,App,General,1,39.5,No
+914,APT-000914,P00232,35,M,Insurance,2.5,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-01-22,2026-01-24,2,Saturday,15:00,Afternoon,Website,General,0,45.37,No
+915,APT-000915,P00417,37,M,Insurance,2.0,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-06-16,2026-06-17,1,Wednesday,14:00,Afternoon,WhatsApp,General,1,44.0,No
+916,APT-000916,P00418,42,F,Self-pay,3.8,1,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-03-07,2026-03-09,2,Monday,10:15,Morning,WhatsApp,Follow-up,1,33.0,No
+917,APT-000917,P00228,70,M,Self-pay,3.8,1,KS04,Klang,Selangor,D004,Permanent,2026-02-02,2026-02-09,7,Monday,10:15,Morning,Phone,General,1,42.0,No
+918,APT-000918,P00110,28,F,Panel,3.3,0,KS10,Rawang,Selangor,D012,Permanent,2026-05-31,2026-06-09,9,Tuesday,19:30,Evening,Phone,General,1,49.5,Yes
+919,APT-000919,P00491,23,M,Panel,3.7,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-03-28,2026-04-06,9,Monday,17:15,Evening,Website,General,0,50.0,Yes
+920,APT-000920,P00110,28,F,Panel,3.3,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-02-25,2026-03-02,5,Monday,21:45,Evening,Website,General,1,42.5,No
+921,APT-000921,P00640,26,F,Insurance,9.7,1,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-03-18,2026-04-01,14,Wednesday,13:45,Afternoon,App,General,2,35.5,Yes
+922,APT-000922,P00329,30,M,Self-pay,5.0,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-06-20,2026-06-26,6,Friday,16:00,Afternoon,Phone,General,0,39.0,No
+923,APT-000923,P00367,40,F,Self-pay,2.9,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-03-30,2026-04-18,19,Saturday,09:45,Morning,App,Follow-up,1,48.5,No
+924,APT-000924,P00066,29,M,Self-pay,5.3,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-05-09,2026-06-01,23,Monday,13:30,Afternoon,WhatsApp,General,1,39.0,No
+925,APT-000925,P00307,13,M,Self-pay,6.6,3,KS07,Kepong,Kuala Lumpur,D007,Permanent,2025-11-30,2026-01-06,37,Tuesday,09:30,Morning,App,General,1,45.0,Yes
+926,APT-000926,P00250,17,F,Insurance,9.8,1,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-05-30,2026-06-05,6,Friday,15:30,Afternoon,WhatsApp,General,1,45.03,No
+927,APT-000927,P00696,35,M,Self-pay,6.6,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-04-07,2026-04-09,2,Thursday,14:15,Afternoon,App,Follow-up,1,29.5,No
+928,APT-000928,P00662,26,M,Panel,6.3,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-04-10,2026-04-30,20,Thursday,16:30,Afternoon,Phone,Health screening,0,150.0,No
+929,APT-000929,P00571,23,M,Insurance,9.0,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-03-07,2026-03-13,6,Friday,21:45,Evening,App,General,2,51.0,No
+930,APT-000930,P00362,46,F,Insurance,3.3,0,KS10,Rawang,Selangor,D012,Permanent,2026-05-07,2026-05-19,12,Tuesday,21:15,Evening,App,Health screening,1,147.5,No
+931,APT-000931,P00146,42,M,Insurance,4.1,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-05-16,2026-05-26,10,Tuesday,09:15,Morning,WhatsApp,Health screening,2,146.5,No
+932,APT-000932,P00639,31,M,Panel,7.0,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-05-17,2026-05-19,2,Tuesday,15:45,Afternoon,Website,General,1,45.5,No
+933,APT-000933,P00016,25,M,Insurance,19.7,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-04-27,2026-05-01,4,Friday,20:15,Evening,WhatsApp,General,2,56.0,No
+934,APT-000934,P00097,35,F,Panel,8.4,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-04-05,2026-04-15,10,Wednesday,18:00,Evening,WhatsApp,Follow-up,0,34.8,No
+935,APT-000935,P00493,75,F,Self-pay,4.2,1,KS03,Subang Jaya,Selangor,D023,Permanent,2026-01-23,2026-01-24,1,Saturday,09:30,Morning,Website,General,0,46.5,Yes
+936,APT-000936,P00463,17,F,Self-pay,4.7,1,KS03,Subang Jaya,Selangor,D020,Permanent,2026-02-11,2026-02-26,15,Thursday,14:45,Afternoon,Website,Health screening,1,152.0,No
+937,APT-000937,P00438,42,F,Insurance,3.6,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-06-01,2026-06-11,10,Thursday,13:00,Afternoon,WhatsApp,General,1,44.7,No
+938,APT-000938,P00282,62,M,Self-pay,8.9,0,KS10,Rawang,Selangor,D012,Permanent,2026-05-18,2026-06-09,22,Tuesday,19:00,Evening,WhatsApp,Health screening,2,149.28,No
+939,APT-000939,P00120,64,F,Self-pay,8.0,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-24,2026-05-25,31,Monday,10:15,Morning,Phone,General,2,46.0,No
+940,APT-000940,P00088,40,F,Panel,5.8,0,KS08,Bangsar,Kuala Lumpur,D016,Permanent,2026-02-25,2026-03-02,5,Monday,20:30,Evening,WhatsApp,Follow-up,2,40.5,No
+941,APT-000941,P00651,43,F,Self-pay,5.3,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-04-27,2026-04-27,0,Monday,18:45,Evening,App,General,0,44.3,No
+942,APT-000942,P00302,48,M,Panel,4.7,3,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-05-18,2026-05-20,2,Wednesday,17:30,Evening,App,General,1,41.0,No
+943,APT-000943,P00420,90,M,Self-pay,5.0,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-28,2026-03-02,2,Monday,13:15,Afternoon,Website,Health screening,0,140.0,No
+944,APT-000944,P00652,22,F,Panel,3.5,0,KS05,Kajang,Selangor,D005,Locum,2026-02-19,2026-02-21,2,Saturday,18:00,Evening,App,Follow-up,1,36.0,No
+945,APT-000945,P00432,55,F,Insurance,5.0,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-04-03,2026-05-01,28,Friday,11:00,Morning,WhatsApp,Follow-up,2,28.0,No
+946,APT-000946,P00125,43,F,Panel,3.9,1,KS03,Subang Jaya,Selangor,D022,Permanent,2026-05-01,2026-05-14,13,Thursday,19:45,Evening,Phone,General,0,47.0,No
+947,APT-000947,P00380,70,F,Self-pay,3.4,0,KS03,Subang Jaya,Selangor,D003,Permanent,2026-04-17,2026-04-24,7,Friday,17:45,Evening,WhatsApp,Follow-up,1,27.0,No
+948,APT-000948,P00563,54,M,Insurance,4.4,1,KS05,Kajang,Selangor,D005,Locum,2026-01-12,2026-01-22,10,Thursday,09:00,Morning,WhatsApp,Health screening,2,163.0,No
+949,APT-000949,P00490,38,M,Panel,6.7,0,KS04,Klang,Selangor,D021,Permanent,2026-02-21,2026-03-12,19,Thursday,19:30,Evening,App,General,2,39.0,No
+950,APT-000950,P00325,42,F,Self-pay,3.2,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-04-01,2026-04-01,0,Wednesday,15:15,Afternoon,WhatsApp,General,0,55.0,No
+951,APT-000951,P00673,22,F,Self-pay,6.9,0,KS09,Putrajaya,Putrajaya,D009,Permanent,2026-04-21,2026-04-25,4,Saturday,09:30,Morning,WhatsApp,General,0,55.0,Yes
+952,APT-000952,P00086,32,F,Insurance,3.1,0,KS03,Subang Jaya,Selangor,D015,Locum,2026-02-23,2026-03-10,15,Tuesday,21:45,Evening,App,General,1,58.0,No
+953,APT-000953,P00583,45,F,Panel,7.8,0,KS10,Rawang,Selangor,D018,Permanent,2026-05-21,2026-05-25,4,Monday,21:45,Evening,Phone,General,2,49.5,No
+954,APT-000954,P00486,38,F,Self-pay,6.9,0,KS10,Rawang,Selangor,D018,Permanent,2026-03-19,2026-03-30,11,Monday,19:00,Evening,App,General,1,44.0,No
+955,APT-000955,P00655,39,F,Self-pay,9.3,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-01-29,2026-02-04,6,Wednesday,15:00,Afternoon,WhatsApp,General,2,44.5,No
+956,APT-000956,P00626,29,F,Insurance,12.1,1,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-01-11,2026-01-13,2,Tuesday,09:30,Morning,App,General,1,51.5,Yes
+957,APT-000957,P00319,37,F,Panel,5.0,0,KS04,Klang,Selangor,D004,Permanent,2026-01-31,2026-02-28,28,Saturday,11:00,Morning,Phone,Follow-up,2,34.5,No
+958,APT-000958,P00235,19,M,Self-pay,3.0,4,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-06-17,2026-06-18,1,Thursday,10:00,Morning,App,General,1,44.5,No
+959,APT-000959,P00357,32,F,Self-pay,3.0,1,KS03,Subang Jaya,Selangor,D015,Locum,2026-04-02,2026-04-03,1,Friday,13:30,Afternoon,Website,General,1,62.5,No
+960,APT-000960,P00112,39,M,Self-pay,20.2,0,KS04,Klang,Selangor,D004,Permanent,2026-06-06,2026-06-06,0,Saturday,17:30,Evening,Website,Follow-up,0,35.5,Yes
+961,APT-000961,P00262,26,M,Panel,9.5,0,KS03,Subang Jaya,Selangor,D017,Permanent,2025-12-20,2026-01-14,25,Wednesday,14:00,Afternoon,Phone,Follow-up,1,34.5,Yes
+962,APT-000962,P00247,40,M,Panel,5.1,0,KS10,Rawang,Selangor,D012,Permanent,2026-04-12,2026-04-13,1,Monday,19:15,Evening,App,General,0,42.5,No
+963,APT-000963,P00691,65,F,Self-pay,8.2,0,KS09,Putrajaya,Putrajaya,D024,Locum,2026-03-20,2026-04-04,15,Saturday,21:15,Evening,Website,Health screening,0,155.5,No
+964,APT-000964,P00186,54,F,Panel,14.9,1,KS02,Shah Alam,Selangor,D002,Permanent,2026-05-31,2026-06-24,24,Wednesday,12:30,Afternoon,App,Health screening,1,148.0,No
+965,APT-000965,P00610,37,F,Panel,6.3,0,KS02,Shah Alam,Selangor,D002,Permanent,2026-02-17,2026-02-26,9,Thursday,16:45,Afternoon,WhatsApp,General,1,46.5,No
+966,APT-000966,P00179,24,M,Self-pay,10.1,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-03-30,2026-03-30,0,Monday,19:00,Evening,App,General,0,44.5,Yes
+967,APT-000967,P00208,28,F,Self-pay,5.6,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-06-08,2026-06-17,9,Wednesday,15:15,Afternoon,WhatsApp,General,1,50.0,Yes
+968,APT-000968,P00514,40,M,Panel,5.3,0,KS10,Rawang,Selangor,D010,Permanent,2026-06-22,2026-06-26,4,Friday,17:30,Evening,App,Health screening,2,152.0,No
+969,APT-000969,P00605,85,M,Insurance,7.2,0,KS01,Petaling Jaya,Selangor,D001,Permanent,2026-02-10,2026-02-11,1,Wednesday,11:15,Morning,App,Follow-up,1,45.0,No
+970,APT-000970,P00529,30,F,Self-pay,6.3,0,KS10,Rawang,Selangor,D012,Permanent,2026-05-13,2026-06-12,30,Friday,09:45,Morning,Website,General,0,48.0,Yes
+971,APT-000971,P00573,47,M,Panel,5.5,1,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-05-07,2026-05-14,7,Thursday,20:15,Evening,App,Follow-up,1,33.0,No
+972,APT-000972,P00577,42,F,Self-pay,2.1,1,KS02,Shah Alam,Selangor,D002,Permanent,2026-05-20,2026-06-08,19,Monday,15:00,Afternoon,WhatsApp,General,0,48.0,Yes
+973,APT-000973,P00545,12,M,Insurance,5.8,1,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-05-11,2026-05-23,12,Saturday,21:30,Evening,WhatsApp,General,2,37.0,No
+974,APT-000974,P00098,25,F,Insurance,4.4,0,KS03,Subang Jaya,Selangor,D020,Permanent,2026-01-31,2026-02-06,6,Friday,15:30,Afternoon,App,General,1,46.0,No
+975,APT-000975,P00473,45,M,Panel,6.7,1,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-06-20,2026-06-26,6,Friday,17:30,Evening,Phone,Follow-up,1,32.5,No
+976,APT-000976,P00486,38,F,Self-pay,6.9,0,KS08,Bangsar,Kuala Lumpur,D025,Permanent,2026-03-15,2026-03-23,8,Monday,20:45,Evening,WhatsApp,General,2,41.5,No
+977,APT-000977,P00344,29,F,Insurance,12.3,2,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-26,2026-02-26,0,Thursday,19:00,Evening,App,Follow-up,0,36.0,Yes
+978,APT-000978,P00578,24,F,Panel,2.4,2,KS03,Subang Jaya,Selangor,D013,Permanent,2026-03-23,2026-04-03,11,Friday,17:45,Evening,App,General,2,39.5,Yes
+979,APT-000979,P00280,37,F,Panel,9.3,0,KS10,Rawang,Selangor,D010,Permanent,2026-05-18,2026-05-18,0,Monday,18:45,Evening,App,General,0,43.5,No
+980,APT-000980,P00442,38,M,Insurance,14.4,0,KS06,Cheras,Kuala Lumpur,D006,Permanent,2026-04-02,2026-04-04,2,Saturday,19:30,Evening,WhatsApp,General,1,50.0,No
+981,APT-000981,P00437,40,M,Panel,13.6,1,KS03,Subang Jaya,Selangor,D003,Permanent,2026-05-21,2026-05-21,0,Thursday,11:00,Morning,WhatsApp,Health screening,0,140.0,No
+982,APT-000982,P00654,47,M,Panel,12.7,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-27,2026-03-04,5,Wednesday,15:00,Afternoon,App,General,0,32.0,No
+983,APT-000983,P00107,34,F,Insurance,11.9,0,KS07,Kepong,Kuala Lumpur,D007,Permanent,2026-04-19,2026-05-02,13,Saturday,17:45,Evening,App,General,0,55.0,No
+984,APT-000984,P00002,39,F,Panel,1.4,0,KS03,Subang Jaya,Selangor,D017,Permanent,2026-04-08,2026-04-10,2,Friday,17:45,Evening,App,Follow-up,1,38.5,No
+985,APT-000985,P00165,26,F,Panel,8.5,0,KS10,Rawang,Selangor,D018,Permanent,2026-02-01,2026-02-02,1,Monday,13:45,Afternoon,Website,General,0,41.0,No
+986,APT-000986,P00142,45,M,Panel,3.4,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-03-31,2026-04-13,13,Monday,21:00,Evening,WhatsApp,General,2,48.0,No
+987,APT-000987,P00265,51,M,Insurance,3.4,1,KS02,Shah Alam,Selangor,D002,Permanent,2026-02-11,2026-02-11,0,Wednesday,16:15,Afternoon,Website,General,0,48.0,No
+988,APT-000988,P00354,49,M,Insurance,4.1,3,KS05,Kajang,Selangor,D005,Locum,2026-02-24,2026-03-14,18,Saturday,12:00,Afternoon,WhatsApp,Follow-up,2,42.0,No
+989,APT-000989,P00121,30,F,Self-pay,6.8,1,KS03,Subang Jaya,Selangor,D013,Permanent,2026-03-19,2026-04-13,25,Monday,19:00,Evening,Phone,General,0,46.0,Yes
+990,APT-000990,P00266,17,F,Panel,3.3,0,KS03,Subang Jaya,Selangor,D022,Permanent,2026-02-28,2026-03-05,5,Thursday,14:30,Afternoon,Website,General,0,43.5,No
+991,APT-000991,P00208,28,F,Self-pay,5.6,1,KS05,Kajang,Selangor,D005,Locum,2026-02-24,2026-02-25,1,Wednesday,10:45,Morning,Phone,Follow-up,1,40.5,No
+992,APT-000992,P00440,40,F,Self-pay,7.6,0,KS03,Subang Jaya,Selangor,D023,Permanent,2026-02-15,2026-02-19,4,Thursday,21:00,Evening,App,General,2,37.5,No
+993,APT-000993,P00184,31,F,Self-pay,6.7,1,KS10,Rawang,Selangor,D010,Permanent,2026-01-12,2026-01-17,5,Saturday,19:00,Evening,App,General,2,48.0,No
+994,APT-000994,P00460,36,F,Panel,5.1,2,KS05,Kajang,Selangor,D005,Locum,2026-06-10,2026-06-10,0,Wednesday,16:45,Afternoon,Phone,General,0,50.0,No
+995,APT-000995,P00485,42,M,Self-pay,17.0,1,KS04,Klang,Selangor,D021,Permanent,2026-01-03,2026-01-28,25,Wednesday,18:30,Evening,WhatsApp,Follow-up,1,36.0,No
+996,APT-000996,P00419,25,F,Panel,5.4,0,KS05,Kajang,Selangor,D005,Locum,2026-06-25,2026-06-25,0,Thursday,19:15,Evening,App,General,0,45.0,No
+997,APT-000997,P00448,52,M,Panel,4.1,0,KS10,Rawang,Selangor,D012,Permanent,2026-01-14,2026-01-15,1,Thursday,20:15,Evening,App,General,0,44.48,No
+998,APT-000998,P00114,36,F,Insurance,11.8,0,KS08,Bangsar,Kuala Lumpur,D008,Permanent,2026-06-10,2026-06-18,8,Thursday,09:15,Morning,App,General,2,41.0,No
+999,APT-000999,P00646,37,M,Panel,8.7,0,KS06,Cheras,Kuala Lumpur,D014,Permanent,2026-06-09,2026-06-10,1,Wednesday,21:30,Evening,App,General,1,44.0,No
+1000,APT-001000,P00479,42,F,Panel,2.5,1,KS10,Rawang,Selangor,D010,Permanent,2026-05-07,2026-05-09,2,Saturday,21:45,Evening,WhatsApp,Health screening,1,140.0,No

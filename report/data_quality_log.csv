@@ -1,0 +1,10 @@
+#,Issue,DQ dimension,Detection rule,Action taken,Rows affected
+1,Exact duplicate rows,Uniqueness,df.duplicated() is True,"Removed the duplicate copies, kept the first occurrence",15
+2,Mixed date formats in appointment_date and booking_date,Consistency,value does not match YYYY-MM-DD (contains '/'),Parsed DD/MM/YYYY with an explicit format and rewrote as YYYY-MM-DD,195
+3,"Inconsistent clinic_state labels (case, spaces, abbreviations)",Consistency,"value not in {Selangor, Kuala Lumpur, Putrajaya}","Trimmed spaces, lower-cased and mapped variants (e.g. KL, W.P. Kuala Lumpur) to the standard name",252
+4,Inconsistent gender labels,Consistency,"value not in {F, M}",Mapped Female/female/f to F and Male/male/m to M,156
+5,Negative consultation_fee_rm,Validity,consultation_fee_rm < 0,Sign error: replaced by the absolute value (checked to lie within the normal range for the consultation type),3
+6,Negative lead_time_days,Validity / Accuracy,"lead_time_days < 0, or not equal to appointment_date − booking_date",Recomputed from the two dates,3
+7,Impossible patient_age,Validity,patient_age < 0 or > 120,Set to missing; imputed in B4,4
+8,"Missing patient_age (MAR, depends on booking_channel)",Completeness,patient_age is null,Imputed in B4 (includes the 4 impossible ages set to missing in B3.4),92
+9,Missing consultation_fee_rm (MCAR),Completeness,consultation_fee_rm is null,Imputed in B4,70
