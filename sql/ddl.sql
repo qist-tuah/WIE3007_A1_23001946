@@ -65,6 +65,11 @@ CREATE TABLE dim_booking_channel (
     channel_type        VARCHAR(12)  NOT NULL           -- Digital / Assisted
 );
 
+CREATE TABLE dim_service (
+    service_key         SMALLINT     PRIMARY KEY,
+    consultation_type   VARCHAR(20)  NOT NULL           -- General / Follow-up / Health screening
+);
+
 CREATE TABLE fact_appointment (
     appointment_key         BIGINT        PRIMARY KEY,
     appointment_no          VARCHAR(15)   NOT NULL,     -- degenerate dimension
@@ -75,6 +80,7 @@ CREATE TABLE fact_appointment (
     doctor_key              INTEGER       NOT NULL,
     clinic_key              SMALLINT      NOT NULL,
     channel_key             SMALLINT      NOT NULL,
+    service_key             SMALLINT      NOT NULL,
     consultation_fee_rm     DECIMAL(8,2)  NOT NULL,     -- additive
     no_show_flag            SMALLINT      NOT NULL CHECK (no_show_flag IN (0, 1)),  -- additive
     reminders_sent          SMALLINT      NOT NULL DEFAULT 0,                       -- additive
@@ -86,5 +92,6 @@ CREATE TABLE fact_appointment (
     CONSTRAINT fk_patient      FOREIGN KEY (patient_key)      REFERENCES dim_patient (patient_key),
     CONSTRAINT fk_doctor       FOREIGN KEY (doctor_key)       REFERENCES dim_doctor (doctor_key),
     CONSTRAINT fk_clinic       FOREIGN KEY (clinic_key)       REFERENCES dim_clinic (clinic_key),
-    CONSTRAINT fk_channel      FOREIGN KEY (channel_key)      REFERENCES dim_booking_channel (channel_key)
+    CONSTRAINT fk_channel      FOREIGN KEY (channel_key)      REFERENCES dim_booking_channel (channel_key),
+    CONSTRAINT fk_service      FOREIGN KEY (service_key)      REFERENCES dim_service (service_key)
 );
